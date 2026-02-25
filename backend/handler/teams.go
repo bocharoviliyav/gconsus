@@ -3,6 +3,7 @@ package handler
 import (
 	"encoding/json"
 	"errors"
+	"log/slog"
 	"net/http"
 	"strconv"
 	"time"
@@ -41,6 +42,7 @@ func (h *TeamsHandler) CreateTeam(w http.ResponseWriter, r *http.Request) {
 			rest.ReturnRequestError(w, pErr.Message)
 			return
 		}
+		slog.Error("Failed to create team", "error", err)
 		rest.ReturnServerError(w)
 		return
 	}
@@ -59,6 +61,7 @@ func (h *TeamsHandler) GetTeam(w http.ResponseWriter, r *http.Request) {
 
 	teamWithMembers, err := h.teamService.GetTeam(r.Context(), id)
 	if err != nil {
+		slog.Error("Failed to get team", "error", err, "id", id)
 		rest.ReturnServerError(w)
 		return
 	}
@@ -99,6 +102,7 @@ func (h *TeamsHandler) ListTeams(w http.ResponseWriter, r *http.Request) {
 
 	teams, err := h.teamService.ListTeams(r.Context(), isActive, pageSize, offset)
 	if err != nil {
+		slog.Error("Failed to list teams", "error", err)
 		rest.ReturnServerError(w)
 		return
 	}
@@ -150,6 +154,7 @@ func (h *TeamsHandler) UpdateTeam(w http.ResponseWriter, r *http.Request) {
 			rest.ReturnRequestError(w, pErr.Message)
 			return
 		}
+		slog.Error("Failed to update team", "error", err, "id", id)
 		rest.ReturnServerError(w)
 		return
 	}
@@ -168,6 +173,7 @@ func (h *TeamsHandler) DeleteTeam(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if err := h.teamService.DeleteTeam(r.Context(), id); err != nil {
+		slog.Error("Failed to delete team", "error", err, "id", id)
 		rest.ReturnServerError(w)
 		return
 	}
@@ -196,6 +202,7 @@ func (h *TeamsHandler) AddTeamMember(w http.ResponseWriter, r *http.Request) {
 			rest.ReturnRequestError(w, pErr.Message)
 			return
 		}
+		slog.Error("Failed to add team member", "error", err, "team_id", teamID)
 		rest.ReturnServerError(w)
 		return
 	}
@@ -244,6 +251,7 @@ func (h *TeamsHandler) GetTeamMembers(w http.ResponseWriter, r *http.Request) {
 
 	members, err := h.teamService.GetTeamMembers(r.Context(), teamID)
 	if err != nil {
+		slog.Error("Failed to get team members", "error", err, "team_id", teamID)
 		rest.ReturnServerError(w)
 		return
 	}

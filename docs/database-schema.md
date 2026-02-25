@@ -2,109 +2,121 @@
 
 ## ER Diagram
 
-```
-┌─────────────────┐         ┌──────────────────┐
-│     users       │◄────┐   │   vcs_providers  │
-├─────────────────┤     │   ├──────────────────┤
-│ id (PK)         │     │   │ id (PK)          │
-│ ldap            │     │   │ name             │
-│ first_name      │     │   │ type             │
-│ last_name       │     │   │ base_url         │
-│ patronymic      │     │   │ auth_token       │
-│ email           │     │   │ enabled          │
-│ photo_url       │     │   │ created_at       │
-│ position        │     │   │ updated_at       │
-│ is_active       │     │   └──────────────────┘
-│ created_at      │     │            │
-│ updated_at      │     │            │
-└─────────────────┘     │            ▼
-         │              │   ┌──────────────────┐
-         │              │   │  git_activities  │
-         │              │   ├──────────────────┤
-         │              │   │ id (PK)          │
-         │              ├───│ user_id (FK)     │
-         │              │   │ provider_id (FK) │
-         │              │   │ activity_type    │
-         │              │   │ repository_name  │
-         │              │   │ repository_owner │
-         │              │   │ commit_count     │
-         │              │   │ lines_added      │
-         │              │   │ lines_deleted    │
-         │              │   │ pr_title         │
-         │              │   │ pr_url           │
-         │              │   │ pr_merged        │
-         │              │   │ issue_title      │
-         │              │   │ issue_url        │
-         │              │   │ issue_state      │
-         │              │   │ occurred_at      │
-         │              │   │ fetched_at       │
-         │              │   │ raw_data         │
-         │              │   └──────────────────┘
-│ username        │
-         │              │
-         │              │   ┌───────────────────────┐
-         │              └───│ aggregated_metrics    │
-         │                  ├───────────────────────┤
-         │                  │ id (PK)               │
-         │                  │ user_id (FK)          │
-         │                  │ team_id (FK)          │
-         │                  │ period_start          │
-         │                  │ period_end            │
-         │                  │ total_commits         │
-         │                  │ total_lines_added     │
-         │                  │ total_lines_deleted   │
-         │                  │ total_prs             │
-         │                  │ total_prs_merged      │
-         │                  │ total_reviews         │
-         │                  │ total_issues          │
-         │                  │ repositories_count    │
-         │                  │ top_repositories      │
-         │                  │ created_at            │
-         │                  └───────────────────────┘
-         │                            │
-         ▼                            │
-┌─────────────────┐                  │
-│  team_members   │                  │
-├─────────────────┤                  │
-│ id (PK)         │                  │
-│ team_id (FK)    │◄─────────────────┘
-│ user_id (FK)    │
-│ role            │         ┌──────────────────┐
-│ joined_at       │         │      teams       │
-│ left_at         │         ├──────────────────┤
-└─────────────────┘         │ id (PK)          │
-         │                  │ name             │
-         │                  │ description      │
-         │                  │ manager_id (FK)  │
-         │                  │ is_active        │
-         │                  │ created_at       │
-         └──────────────────┤ updated_at       │
-                            └──────────────────┘
+```mermaid
+erDiagram
+    users {
+        uuid id PK
+        varchar username UK "unique, max 100"
+        varchar first_name
+        varchar last_name
+        varchar patronymic "nullable"
+        varchar email "nullable"
+        text photo_url "nullable"
+        varchar position "nullable"
+        boolean is_active "default true"
+        timestamptz created_at
+        timestamptz updated_at
+    }
 
-┌────────────────────┐
-│  configurations    │
-├────────────────────┤
-│ id (PK)            │
-│ key                │
-│ value              │
-│ description        │
-│ updated_at         │
-│ updated_by         │
-└────────────────────┘
+    teams {
+        uuid id PK
+        varchar name UK "unique"
+        text description "nullable"
+        uuid manager_id FK "nullable, -> users"
+        boolean is_active "default true"
+        timestamptz created_at
+        timestamptz updated_at
+    }
 
-┌────────────────────┐
-│   sync_history     │
-├────────────────────┤
-│ id (PK)            │
-│ provider_id (FK)   │
-│ sync_type          │
-│ status             │
-│ users_synced       │
-│ activities_synced  │
-│ started_at         │
-│ completed_at       │
-│ error_message      │
-└────────────────────┘
+    team_members {
+        uuid id PK
+        uuid team_id FK "-> teams, ON DELETE CASCADE"
+        uuid user_id FK "-> users, ON DELETE CASCADE"
+        varchar role "default developer"
+        timestamptz joined_at
+        timestamptz left_at "nullable"
+    }
+
+    vcs_providers {
+        uuid id PK
+        varchar name
+        varchar type "github | gitlab"
+        varchar base_url
+        text auth_token
+        boolean enabled "default true"
+        timestamptz created_at
+        timestamptz updated_at
+    }
+
+    git_activities {
+        uuid id PK
+        uuid user_id FK "-> users, ON DELETE CASCADE"
+        uuid provider_id FK "-> vcs_providers, ON DELETE CASCADE"
+        varchar activity_type "commit | pr | issue | review"
+        varchar repository_name
+        varchar repository_owner
+        integer commit_count "default 0"
+        integer lines_added "default 0"
+        integer lines_deleted "default 0"
+        text pr_title "nullable"
+        text pr_url "nullable"
+        boolean pr_merged "nullable"
+        text issue_title "nullable"
+        text issue_url "nullable"
+        varchar issue_state "nullable"
+        timestamptz occurred_at
+        timestamptz fetched_at
+        jsonb raw_data "nullable, GIN index"
+    }
+
+    aggregated_metrics {
+        uuid id PK
+        uuid user_id FK "nullable, -> users"
+        uuid team_id FK "nullable, -> teams"
+        date period_start
+        date period_end
+        integer total_commits "default 0"
+        bigint total_lines_added "default 0"
+        bigint total_lines_deleted "default 0"
+        integer total_prs "default 0"
+        integer total_prs_merged "default 0"
+        integer total_reviews "default 0"
+        integer total_issues "default 0"
+        integer repositories_count "default 0"
+        jsonb top_repositories "nullable"
+        timestamptz created_at
+    }
+
+    configurations {
+        uuid id PK
+        varchar key UK "unique"
+        jsonb value
+        text description "nullable"
+        timestamptz updated_at
+        uuid updated_by FK "nullable, -> users"
+    }
+
+    sync_history {
+        uuid id PK
+        uuid provider_id FK "nullable, -> vcs_providers"
+        varchar sync_type "employees | git_activities | aggregation"
+        varchar status "running | completed | failed"
+        integer users_synced "default 0"
+        integer activities_synced "default 0"
+        timestamptz started_at
+        timestamptz completed_at "nullable"
+        text error_message "nullable"
+    }
+
+    users ||--o{ team_members : "member of"
+    teams ||--o{ team_members : "has members"
+    users ||--o| teams : "manages (manager_id)"
+    users ||--o{ git_activities : "performs"
+    vcs_providers ||--o{ git_activities : "source"
+    users ||--o{ aggregated_metrics : "metrics per user"
+    teams ||--o{ aggregated_metrics : "metrics per team"
+    vcs_providers ||--o{ sync_history : "sync logs"
+    users ||--o{ configurations : "updated_by"
 ```
 
 ## Table Descriptions

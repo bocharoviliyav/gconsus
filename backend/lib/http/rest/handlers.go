@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"log/slog"
 	"net/http"
+	"runtime/debug"
 )
 
 const (
@@ -12,11 +13,11 @@ const (
 )
 
 type Error struct {
-	Message string
+	Message string `json:"message"`
 }
 
 type ErrorResponse struct {
-	Errors []Error
+	Errors []Error `json:"errors"`
 }
 
 func ReturnResponse(w http.ResponseWriter, v any) {
@@ -31,11 +32,16 @@ func ReturnCreateResponse(w http.ResponseWriter, v any) {
 	w.WriteHeader(http.StatusCreated)
 
 	if err := json.NewEncoder(w).Encode(v); err != nil {
-		slog.Error("ReturnResponse failed to json.Encode", "err", err)
+		slog.Error("ReturnCreateResponse failed to json.Encode", "err", err)
 	}
 }
 
 func ReturnServerError(w http.ResponseWriter) {
+	stack := string(debug.Stack())
+	slog.Error("Internal server error returned to client",
+		"stack", stack,
+	)
+
 	w.WriteHeader(http.StatusInternalServerError)
 
 	resp := ErrorResponse{
