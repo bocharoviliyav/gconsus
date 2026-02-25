@@ -1,0 +1,1157 @@
+[
+  {
+    "id": 5002,
+    "iid": 3,
+    "title": "Fix memory leak in worker",
+    "state": "merged",
+    "merged_by": {
+      "id": 2009,
+      "username": "novikova-ta"
+    },
+    "author": {
+      "id": 2007,
+      "username": "sokolov-iv",
+      "name": "Sokolov Igor"
+    },
+    "source_branch": "feature/ticket-190",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/ci-cd-templates/-/merge_requests/3",
+    "created_at": "2026-02-20T21:08:32.000+00:00",
+    "updated_at": "2026-02-20T21:08:32.000+00:00",
+    "changes_count": "13",
+    "references": {
+      "full": "devteam/ci-cd-templates!3"
+    },
+    "reviewers": [
+      {
+        "id": 2002,
+        "username": "kuznetsova-mv"
+      }
+    ]
+  },
+  {
+    "id": 5024,
+    "iid": 25,
+    "title": "Add request validation",
+    "state": "merged",
+    "merged_by": {
+      "id": 2006,
+      "username": "lebedev-sv"
+    },
+    "author": {
+      "id": 2008,
+      "username": "popova-os",
+      "name": "Popova Olga"
+    },
+    "source_branch": "feature/ticket-359",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/frontend-app/-/merge_requests/25",
+    "created_at": "2026-02-18T21:08:32.000+00:00",
+    "updated_at": "2026-02-23T21:08:32.000+00:00",
+    "changes_count": "32",
+    "references": {
+      "full": "devteam/frontend-app!25"
+    },
+    "reviewers": [
+      {
+        "id": 2002,
+        "username": "ivanova-ea"
+      }
+    ]
+  },
+  {
+    "id": 5028,
+    "iid": 29,
+    "title": "Fix broken pagination",
+    "state": "merged",
+    "merged_by": {
+      "id": 2002,
+      "username": "volkov-ds"
+    },
+    "author": {
+      "id": 2008,
+      "username": "popova-os",
+      "name": "Popova Olga"
+    },
+    "source_branch": "feature/ticket-286",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/frontend-app/-/merge_requests/29",
+    "created_at": "2026-02-14T21:08:32.000+00:00",
+    "updated_at": "2026-02-16T21:08:32.000+00:00",
+    "changes_count": "37",
+    "references": {
+      "full": "devteam/frontend-app!29"
+    },
+    "reviewers": [
+      {
+        "id": 2007,
+        "username": "ivanova-ea"
+      }
+    ]
+  },
+  {
+    "id": 5034,
+    "iid": 35,
+    "title": "Fix encoding issue",
+    "state": "merged",
+    "merged_by": {
+      "id": 2005,
+      "username": "petrov-pp"
+    },
+    "author": {
+      "id": 2003,
+      "username": "sidorov-ak",
+      "name": "Sidorov Alexey"
+    },
+    "source_branch": "feature/ticket-721",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/frontend-app/-/merge_requests/35",
+    "created_at": "2026-02-10T21:08:32.000+00:00",
+    "updated_at": "2026-02-11T21:08:32.000+00:00",
+    "changes_count": "46",
+    "references": {
+      "full": "devteam/frontend-app!35"
+    },
+    "reviewers": [
+      {
+        "id": 2003,
+        "username": "volkov-ds"
+      }
+    ]
+  },
+  {
+    "id": 5022,
+    "iid": 23,
+    "title": "Fix date range filter",
+    "state": "merged",
+    "merged_by": {
+      "id": 2002,
+      "username": "petrov-pp"
+    },
+    "author": {
+      "id": 2010,
+      "username": "novikova-ta",
+      "name": "Novikova Tatyana"
+    },
+    "source_branch": "feature/ticket-519",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/api-gateway/-/merge_requests/23",
+    "created_at": "2026-02-05T21:08:32.000+00:00",
+    "updated_at": "2026-02-10T21:08:32.000+00:00",
+    "changes_count": "30",
+    "references": {
+      "full": "devteam/api-gateway!23"
+    },
+    "reviewers": [
+      {
+        "id": 2007,
+        "username": "sidorov-ak"
+      }
+    ]
+  },
+  {
+    "id": 5031,
+    "iid": 32,
+    "title": "Fix token refresh logic",
+    "state": "merged",
+    "merged_by": {
+      "id": 2004,
+      "username": "novikova-ta"
+    },
+    "author": {
+      "id": 2003,
+      "username": "sidorov-ak",
+      "name": "Sidorov Alexey"
+    },
+    "source_branch": "feature/ticket-503",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/mobile-app/-/merge_requests/32",
+    "created_at": "2026-02-01T21:08:32.000+00:00",
+    "updated_at": "2026-02-05T21:08:32.000+00:00",
+    "changes_count": "11",
+    "references": {
+      "full": "devteam/mobile-app!32"
+    },
+    "reviewers": [
+      {
+        "id": 2009,
+        "username": "morozova-nn"
+      }
+    ]
+  },
+  {
+    "id": 5023,
+    "iid": 24,
+    "title": "Implement data migration",
+    "state": "merged",
+    "merged_by": {
+      "id": 2001,
+      "username": "petrov-pp"
+    },
+    "author": {
+      "id": 2007,
+      "username": "sokolov-iv",
+      "name": "Sokolov Igor"
+    },
+    "source_branch": "feature/ticket-430",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/ci-cd-templates/-/merge_requests/24",
+    "created_at": "2026-01-08T21:08:32.000+00:00",
+    "updated_at": "2026-01-11T21:08:32.000+00:00",
+    "changes_count": "3",
+    "references": {
+      "full": "devteam/ci-cd-templates!24"
+    },
+    "reviewers": [
+      {
+        "id": 2006,
+        "username": "kuznetsova-mv"
+      }
+    ]
+  },
+  {
+    "id": 5000,
+    "iid": 1,
+    "title": "Add user authentication flow",
+    "state": "closed",
+    "merged_by": null,
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "source_branch": "feature/ticket-482",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/infra-configs/-/merge_requests/1",
+    "created_at": "2025-12-30T21:08:32.000+00:00",
+    "updated_at": "2026-01-02T21:08:32.000+00:00",
+    "changes_count": "49",
+    "references": {
+      "full": "devteam/infra-configs!1"
+    },
+    "reviewers": [
+      {
+        "id": 2002,
+        "username": "lebedev-sv"
+      }
+    ]
+  },
+  {
+    "id": 5039,
+    "iid": 40,
+    "title": "Add request tracing",
+    "state": "merged",
+    "merged_by": {
+      "id": 2007,
+      "username": "morozova-nn"
+    },
+    "author": {
+      "id": 2009,
+      "username": "lebedev-sv",
+      "name": "Lebedev Sergey"
+    },
+    "source_branch": "feature/ticket-780",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/mobile-app/-/merge_requests/40",
+    "created_at": "2025-12-25T21:08:32.000+00:00",
+    "updated_at": "2025-12-26T21:08:32.000+00:00",
+    "changes_count": "5",
+    "references": {
+      "full": "devteam/mobile-app!40"
+    },
+    "reviewers": [
+      {
+        "id": 2001,
+        "username": "petrov-pp"
+      }
+    ]
+  },
+  {
+    "id": 5001,
+    "iid": 2,
+    "title": "Implement dashboard API",
+    "state": "opened",
+    "merged_by": null,
+    "author": {
+      "id": 2008,
+      "username": "popova-os",
+      "name": "Popova Olga"
+    },
+    "source_branch": "feature/ticket-776",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/docs-portal/-/merge_requests/2",
+    "created_at": "2025-12-23T21:08:32.000+00:00",
+    "updated_at": "2025-12-23T21:08:32.000+00:00",
+    "changes_count": "37",
+    "references": {
+      "full": "devteam/docs-portal!2"
+    },
+    "reviewers": [
+      {
+        "id": 2010,
+        "username": "morozova-nn"
+      }
+    ]
+  },
+  {
+    "id": 5032,
+    "iid": 33,
+    "title": "Implement batch processing",
+    "state": "merged",
+    "merged_by": {
+      "id": 2010,
+      "username": "morozova-nn"
+    },
+    "author": {
+      "id": 2010,
+      "username": "novikova-ta",
+      "name": "Novikova Tatyana"
+    },
+    "source_branch": "feature/ticket-863",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/mobile-app/-/merge_requests/33",
+    "created_at": "2025-11-13T21:08:32.000+00:00",
+    "updated_at": "2025-11-17T21:08:32.000+00:00",
+    "changes_count": "49",
+    "references": {
+      "full": "devteam/mobile-app!33"
+    },
+    "reviewers": [
+      {
+        "id": 2005,
+        "username": "sidorov-ak"
+      }
+    ]
+  },
+  {
+    "id": 5018,
+    "iid": 19,
+    "title": "Add email notifications",
+    "state": "closed",
+    "merged_by": null,
+    "author": {
+      "id": 2004,
+      "username": "kuznetsova-mv",
+      "name": "Kuznetsova Maria"
+    },
+    "source_branch": "feature/ticket-739",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/api-gateway/-/merge_requests/19",
+    "created_at": "2025-11-09T21:08:32.000+00:00",
+    "updated_at": "2025-11-13T21:08:32.000+00:00",
+    "changes_count": "29",
+    "references": {
+      "full": "devteam/api-gateway!19"
+    },
+    "reviewers": [
+      {
+        "id": 2006,
+        "username": "sidorov-ak"
+      }
+    ]
+  },
+  {
+    "id": 5025,
+    "iid": 26,
+    "title": "Fix concurrent access issue",
+    "state": "merged",
+    "merged_by": {
+      "id": 2007,
+      "username": "lebedev-sv"
+    },
+    "author": {
+      "id": 2005,
+      "username": "volkov-ds",
+      "name": "Volkov Dmitry"
+    },
+    "source_branch": "feature/ticket-114",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/merge_requests/26",
+    "created_at": "2025-11-07T21:08:32.000+00:00",
+    "updated_at": "2025-11-11T21:08:32.000+00:00",
+    "changes_count": "37",
+    "references": {
+      "full": "devteam/backend-core!26"
+    },
+    "reviewers": [
+      {
+        "id": 2010,
+        "username": "sokolov-iv"
+      }
+    ]
+  },
+  {
+    "id": 5006,
+    "iid": 7,
+    "title": "Implement SSO integration",
+    "state": "merged",
+    "merged_by": {
+      "id": 2002,
+      "username": "lebedev-sv"
+    },
+    "author": {
+      "id": 2010,
+      "username": "novikova-ta",
+      "name": "Novikova Tatyana"
+    },
+    "source_branch": "feature/ticket-451",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/mobile-app/-/merge_requests/7",
+    "created_at": "2025-10-27T21:08:32.000+00:00",
+    "updated_at": "2025-10-28T21:08:32.000+00:00",
+    "changes_count": "13",
+    "references": {
+      "full": "devteam/mobile-app!7"
+    },
+    "reviewers": [
+      {
+        "id": 2006,
+        "username": "morozova-nn"
+      }
+    ]
+  },
+  {
+    "id": 5005,
+    "iid": 6,
+    "title": "Refactor middleware chain",
+    "state": "opened",
+    "merged_by": null,
+    "author": {
+      "id": 2007,
+      "username": "sokolov-iv",
+      "name": "Sokolov Igor"
+    },
+    "source_branch": "feature/ticket-444",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/infra-configs/-/merge_requests/6",
+    "created_at": "2025-10-14T21:08:32.000+00:00",
+    "updated_at": "2025-10-16T21:08:32.000+00:00",
+    "changes_count": "39",
+    "references": {
+      "full": "devteam/infra-configs!6"
+    },
+    "reviewers": [
+      {
+        "id": 2007,
+        "username": "sokolov-iv"
+      }
+    ]
+  },
+  {
+    "id": 5010,
+    "iid": 11,
+    "title": "Add health check endpoint",
+    "state": "merged",
+    "merged_by": {
+      "id": 2008,
+      "username": "sidorov-ak"
+    },
+    "author": {
+      "id": 2006,
+      "username": "morozova-nn",
+      "name": "Morozova Natalia"
+    },
+    "source_branch": "feature/ticket-944",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/frontend-app/-/merge_requests/11",
+    "created_at": "2025-10-09T21:08:32.000+00:00",
+    "updated_at": "2025-10-11T21:08:32.000+00:00",
+    "changes_count": "30",
+    "references": {
+      "full": "devteam/frontend-app!11"
+    },
+    "reviewers": [
+      {
+        "id": 2001,
+        "username": "petrov-pp"
+      }
+    ]
+  },
+  {
+    "id": 5011,
+    "iid": 12,
+    "title": "Implement retry logic",
+    "state": "merged",
+    "merged_by": {
+      "id": 2010,
+      "username": "petrov-pp"
+    },
+    "author": {
+      "id": 2003,
+      "username": "sidorov-ak",
+      "name": "Sidorov Alexey"
+    },
+    "source_branch": "feature/ticket-824",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/merge_requests/12",
+    "created_at": "2025-10-04T21:08:32.000+00:00",
+    "updated_at": "2025-10-07T21:08:32.000+00:00",
+    "changes_count": "4",
+    "references": {
+      "full": "devteam/data-pipeline!12"
+    },
+    "reviewers": [
+      {
+        "id": 2007,
+        "username": "kuznetsova-mv"
+      }
+    ]
+  },
+  {
+    "id": 5036,
+    "iid": 37,
+    "title": "Add connection pooling",
+    "state": "opened",
+    "merged_by": null,
+    "author": {
+      "id": 2009,
+      "username": "lebedev-sv",
+      "name": "Lebedev Sergey"
+    },
+    "source_branch": "feature/ticket-300",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/docs-portal/-/merge_requests/37",
+    "created_at": "2025-10-02T21:08:32.000+00:00",
+    "updated_at": "2025-10-03T21:08:32.000+00:00",
+    "changes_count": "24",
+    "references": {
+      "full": "devteam/docs-portal!37"
+    },
+    "reviewers": [
+      {
+        "id": 2010,
+        "username": "novikova-ta"
+      }
+    ]
+  },
+  {
+    "id": 5015,
+    "iid": 16,
+    "title": "Add search functionality",
+    "state": "merged",
+    "merged_by": {
+      "id": 2010,
+      "username": "novikova-ta"
+    },
+    "author": {
+      "id": 2006,
+      "username": "morozova-nn",
+      "name": "Morozova Natalia"
+    },
+    "source_branch": "feature/ticket-336",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/merge_requests/16",
+    "created_at": "2025-09-25T21:08:32.000+00:00",
+    "updated_at": "2025-09-29T21:08:32.000+00:00",
+    "changes_count": "45",
+    "references": {
+      "full": "devteam/backend-core!16"
+    },
+    "reviewers": [
+      {
+        "id": 2004,
+        "username": "sidorov-ak"
+      }
+    ]
+  },
+  {
+    "id": 5027,
+    "iid": 28,
+    "title": "Add API versioning",
+    "state": "merged",
+    "merged_by": {
+      "id": 2005,
+      "username": "sokolov-iv"
+    },
+    "author": {
+      "id": 2008,
+      "username": "popova-os",
+      "name": "Popova Olga"
+    },
+    "source_branch": "feature/ticket-385",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/api-gateway/-/merge_requests/28",
+    "created_at": "2025-09-18T21:08:32.000+00:00",
+    "updated_at": "2025-09-21T21:08:32.000+00:00",
+    "changes_count": "8",
+    "references": {
+      "full": "devteam/api-gateway!28"
+    },
+    "reviewers": [
+      {
+        "id": 2007,
+        "username": "sidorov-ak"
+      }
+    ]
+  },
+  {
+    "id": 5033,
+    "iid": 34,
+    "title": "Add compression support",
+    "state": "merged",
+    "merged_by": {
+      "id": 2004,
+      "username": "novikova-ta"
+    },
+    "author": {
+      "id": 2003,
+      "username": "sidorov-ak",
+      "name": "Sidorov Alexey"
+    },
+    "source_branch": "feature/ticket-418",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/mobile-app/-/merge_requests/34",
+    "created_at": "2025-09-12T21:08:32.000+00:00",
+    "updated_at": "2025-09-13T21:08:32.000+00:00",
+    "changes_count": "26",
+    "references": {
+      "full": "devteam/mobile-app!34"
+    },
+    "reviewers": [
+      {
+        "id": 2009,
+        "username": "morozova-nn"
+      }
+    ]
+  },
+  {
+    "id": 5013,
+    "iid": 14,
+    "title": "Add pagination to list endpoints",
+    "state": "merged",
+    "merged_by": {
+      "id": 2002,
+      "username": "popova-os"
+    },
+    "author": {
+      "id": 2005,
+      "username": "volkov-ds",
+      "name": "Volkov Dmitry"
+    },
+    "source_branch": "feature/ticket-191",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/merge_requests/14",
+    "created_at": "2025-09-10T21:08:32.000+00:00",
+    "updated_at": "2025-09-13T21:08:32.000+00:00",
+    "changes_count": "17",
+    "references": {
+      "full": "devteam/data-pipeline!14"
+    },
+    "reviewers": [
+      {
+        "id": 2008,
+        "username": "kuznetsova-mv"
+      }
+    ]
+  },
+  {
+    "id": 5035,
+    "iid": 36,
+    "title": "Implement graceful shutdown",
+    "state": "opened",
+    "merged_by": null,
+    "author": {
+      "id": 2006,
+      "username": "morozova-nn",
+      "name": "Morozova Natalia"
+    },
+    "source_branch": "feature/ticket-108",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/infra-configs/-/merge_requests/36",
+    "created_at": "2025-09-09T21:08:32.000+00:00",
+    "updated_at": "2025-09-12T21:08:32.000+00:00",
+    "changes_count": "3",
+    "references": {
+      "full": "devteam/infra-configs!36"
+    },
+    "reviewers": [
+      {
+        "id": 2005,
+        "username": "sidorov-ak"
+      }
+    ]
+  },
+  {
+    "id": 5007,
+    "iid": 8,
+    "title": "Add export to CSV",
+    "state": "closed",
+    "merged_by": null,
+    "author": {
+      "id": 2009,
+      "username": "lebedev-sv",
+      "name": "Lebedev Sergey"
+    },
+    "source_branch": "feature/ticket-317",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/monitoring-stack/-/merge_requests/8",
+    "created_at": "2025-09-04T21:08:32.000+00:00",
+    "updated_at": "2025-09-04T21:08:32.000+00:00",
+    "changes_count": "40",
+    "references": {
+      "full": "devteam/monitoring-stack!8"
+    },
+    "reviewers": [
+      {
+        "id": 2001,
+        "username": "popova-os"
+      }
+    ]
+  },
+  {
+    "id": 5019,
+    "iid": 20,
+    "title": "Refactor error handling",
+    "state": "merged",
+    "merged_by": {
+      "id": 2007,
+      "username": "novikova-ta"
+    },
+    "author": {
+      "id": 2001,
+      "username": "petrov-pp",
+      "name": "Petrov Petr"
+    },
+    "source_branch": "feature/ticket-552",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/auth-service/-/merge_requests/20",
+    "created_at": "2025-08-16T21:08:32.000+00:00",
+    "updated_at": "2025-08-20T21:08:32.000+00:00",
+    "changes_count": "19",
+    "references": {
+      "full": "devteam/auth-service!20"
+    },
+    "reviewers": [
+      {
+        "id": 2004,
+        "username": "sidorov-ak"
+      }
+    ]
+  },
+  {
+    "id": 5004,
+    "iid": 5,
+    "title": "Add rate limiting",
+    "state": "merged",
+    "merged_by": {
+      "id": 2008,
+      "username": "kuznetsova-mv"
+    },
+    "author": {
+      "id": 2009,
+      "username": "lebedev-sv",
+      "name": "Lebedev Sergey"
+    },
+    "source_branch": "feature/ticket-348",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/mobile-app/-/merge_requests/5",
+    "created_at": "2025-07-17T21:08:32.000+00:00",
+    "updated_at": "2025-07-19T21:08:32.000+00:00",
+    "changes_count": "42",
+    "references": {
+      "full": "devteam/mobile-app!5"
+    },
+    "reviewers": [
+      {
+        "id": 2002,
+        "username": "lebedev-sv"
+      }
+    ]
+  },
+  {
+    "id": 5021,
+    "iid": 22,
+    "title": "Add integration tests",
+    "state": "closed",
+    "merged_by": null,
+    "author": {
+      "id": 2001,
+      "username": "petrov-pp",
+      "name": "Petrov Petr"
+    },
+    "source_branch": "feature/ticket-179",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/ci-cd-templates/-/merge_requests/22",
+    "created_at": "2025-07-15T21:08:32.000+00:00",
+    "updated_at": "2025-07-19T21:08:32.000+00:00",
+    "changes_count": "36",
+    "references": {
+      "full": "devteam/ci-cd-templates!22"
+    },
+    "reviewers": [
+      {
+        "id": 2008,
+        "username": "ivanova-ea"
+      }
+    ]
+  },
+  {
+    "id": 5026,
+    "iid": 27,
+    "title": "Implement caching strategy",
+    "state": "merged",
+    "merged_by": {
+      "id": 2009,
+      "username": "popova-os"
+    },
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "source_branch": "feature/ticket-955",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/api-gateway/-/merge_requests/27",
+    "created_at": "2025-06-29T21:08:32.000+00:00",
+    "updated_at": "2025-07-04T21:08:32.000+00:00",
+    "changes_count": "41",
+    "references": {
+      "full": "devteam/api-gateway!27"
+    },
+    "reviewers": [
+      {
+        "id": 2002,
+        "username": "sokolov-iv"
+      }
+    ]
+  },
+  {
+    "id": 5014,
+    "iid": 15,
+    "title": "Implement audit logging",
+    "state": "merged",
+    "merged_by": {
+      "id": 2008,
+      "username": "volkov-ds"
+    },
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "source_branch": "feature/ticket-522",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/merge_requests/15",
+    "created_at": "2025-06-09T21:08:32.000+00:00",
+    "updated_at": "2025-06-14T21:08:32.000+00:00",
+    "changes_count": "21",
+    "references": {
+      "full": "devteam/data-pipeline!15"
+    },
+    "reviewers": [
+      {
+        "id": 2009,
+        "username": "petrov-pp"
+      }
+    ]
+  },
+  {
+    "id": 5008,
+    "iid": 9,
+    "title": "Fix timezone handling",
+    "state": "merged",
+    "merged_by": {
+      "id": 2006,
+      "username": "sokolov-iv"
+    },
+    "author": {
+      "id": 2003,
+      "username": "sidorov-ak",
+      "name": "Sidorov Alexey"
+    },
+    "source_branch": "feature/ticket-689",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/merge_requests/9",
+    "created_at": "2025-06-05T21:08:32.000+00:00",
+    "updated_at": "2025-06-05T21:08:32.000+00:00",
+    "changes_count": "35",
+    "references": {
+      "full": "devteam/backend-core!9"
+    },
+    "reviewers": [
+      {
+        "id": 2008,
+        "username": "petrov-pp"
+      }
+    ]
+  },
+  {
+    "id": 5017,
+    "iid": 18,
+    "title": "Implement file upload",
+    "state": "opened",
+    "merged_by": null,
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "source_branch": "feature/ticket-470",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/merge_requests/18",
+    "created_at": "2025-05-26T21:08:32.000+00:00",
+    "updated_at": "2025-05-28T21:08:32.000+00:00",
+    "changes_count": "1",
+    "references": {
+      "full": "devteam/data-pipeline!18"
+    },
+    "reviewers": [
+      {
+        "id": 2002,
+        "username": "kuznetsova-mv"
+      }
+    ]
+  },
+  {
+    "id": 5016,
+    "iid": 17,
+    "title": "Fix SQL injection vulnerability",
+    "state": "opened",
+    "merged_by": null,
+    "author": {
+      "id": 2007,
+      "username": "sokolov-iv",
+      "name": "Sokolov Igor"
+    },
+    "source_branch": "feature/ticket-225",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/ci-cd-templates/-/merge_requests/17",
+    "created_at": "2025-05-23T21:08:32.000+00:00",
+    "updated_at": "2025-05-25T21:08:32.000+00:00",
+    "changes_count": "23",
+    "references": {
+      "full": "devteam/ci-cd-templates!17"
+    },
+    "reviewers": [
+      {
+        "id": 2001,
+        "username": "morozova-nn"
+      }
+    ]
+  },
+  {
+    "id": 5038,
+    "iid": 39,
+    "title": "Implement circuit breaker",
+    "state": "merged",
+    "merged_by": {
+      "id": 2010,
+      "username": "morozova-nn"
+    },
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "source_branch": "feature/ticket-504",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/merge_requests/39",
+    "created_at": "2025-05-23T21:08:32.000+00:00",
+    "updated_at": "2025-05-28T21:08:32.000+00:00",
+    "changes_count": "13",
+    "references": {
+      "full": "devteam/data-pipeline!39"
+    },
+    "reviewers": [
+      {
+        "id": 2005,
+        "username": "lebedev-sv"
+      }
+    ]
+  },
+  {
+    "id": 5030,
+    "iid": 31,
+    "title": "Add metric collection",
+    "state": "merged",
+    "merged_by": {
+      "id": 2010,
+      "username": "kuznetsova-mv"
+    },
+    "author": {
+      "id": 2004,
+      "username": "kuznetsova-mv",
+      "name": "Kuznetsova Maria"
+    },
+    "source_branch": "feature/ticket-259",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/api-gateway/-/merge_requests/31",
+    "created_at": "2025-05-15T21:08:32.000+00:00",
+    "updated_at": "2025-05-15T21:08:32.000+00:00",
+    "changes_count": "38",
+    "references": {
+      "full": "devteam/api-gateway!31"
+    },
+    "reviewers": [
+      {
+        "id": 2002,
+        "username": "kuznetsova-mv"
+      }
+    ]
+  },
+  {
+    "id": 5029,
+    "iid": 30,
+    "title": "Implement webhook handler",
+    "state": "opened",
+    "merged_by": null,
+    "author": {
+      "id": 2001,
+      "username": "petrov-pp",
+      "name": "Petrov Petr"
+    },
+    "source_branch": "feature/ticket-794",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/merge_requests/30",
+    "created_at": "2025-05-01T21:08:32.000+00:00",
+    "updated_at": "2025-05-05T21:08:32.000+00:00",
+    "changes_count": "38",
+    "references": {
+      "full": "devteam/backend-core!30"
+    },
+    "reviewers": [
+      {
+        "id": 2010,
+        "username": "lebedev-sv"
+      }
+    ]
+  },
+  {
+    "id": 5012,
+    "iid": 13,
+    "title": "Fix CORS configuration",
+    "state": "closed",
+    "merged_by": null,
+    "author": {
+      "id": 2009,
+      "username": "lebedev-sv",
+      "name": "Lebedev Sergey"
+    },
+    "source_branch": "feature/ticket-772",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/merge_requests/13",
+    "created_at": "2025-04-14T21:08:32.000+00:00",
+    "updated_at": "2025-04-15T21:08:32.000+00:00",
+    "changes_count": "44",
+    "references": {
+      "full": "devteam/backend-core!13"
+    },
+    "reviewers": [
+      {
+        "id": 2007,
+        "username": "volkov-ds"
+      }
+    ]
+  },
+  {
+    "id": 5009,
+    "iid": 10,
+    "title": "Update frontend dependencies",
+    "state": "closed",
+    "merged_by": null,
+    "author": {
+      "id": 2008,
+      "username": "popova-os",
+      "name": "Popova Olga"
+    },
+    "source_branch": "feature/ticket-205",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/docs-portal/-/merge_requests/10",
+    "created_at": "2025-04-11T21:08:32.000+00:00",
+    "updated_at": "2025-04-13T21:08:32.000+00:00",
+    "changes_count": "38",
+    "references": {
+      "full": "devteam/docs-portal!10"
+    },
+    "reviewers": [
+      {
+        "id": 2010,
+        "username": "kuznetsova-mv"
+      }
+    ]
+  },
+  {
+    "id": 5020,
+    "iid": 21,
+    "title": "Implement role-based access",
+    "state": "merged",
+    "merged_by": {
+      "id": 2002,
+      "username": "volkov-ds"
+    },
+    "author": {
+      "id": 2004,
+      "username": "kuznetsova-mv",
+      "name": "Kuznetsova Maria"
+    },
+    "source_branch": "feature/ticket-995",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/merge_requests/21",
+    "created_at": "2025-03-20T21:08:32.000+00:00",
+    "updated_at": "2025-03-20T21:08:32.000+00:00",
+    "changes_count": "6",
+    "references": {
+      "full": "devteam/data-pipeline!21"
+    },
+    "reviewers": [
+      {
+        "id": 2008,
+        "username": "volkov-ds"
+      }
+    ]
+  },
+  {
+    "id": 5003,
+    "iid": 4,
+    "title": "Update database schema",
+    "state": "opened",
+    "merged_by": null,
+    "author": {
+      "id": 2005,
+      "username": "volkov-ds",
+      "name": "Volkov Dmitry"
+    },
+    "source_branch": "feature/ticket-191",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/mobile-app/-/merge_requests/4",
+    "created_at": "2025-03-05T21:08:32.000+00:00",
+    "updated_at": "2025-03-05T21:08:32.000+00:00",
+    "changes_count": "26",
+    "references": {
+      "full": "devteam/mobile-app!4"
+    },
+    "reviewers": [
+      {
+        "id": 2006,
+        "username": "lebedev-sv"
+      }
+    ]
+  },
+  {
+    "id": 5037,
+    "iid": 38,
+    "title": "Fix memory allocation",
+    "state": "opened",
+    "merged_by": null,
+    "author": {
+      "id": 2001,
+      "username": "petrov-pp",
+      "name": "Petrov Petr"
+    },
+    "source_branch": "feature/ticket-894",
+    "target_branch": "main",
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/merge_requests/38",
+    "created_at": "2025-03-02T21:08:32.000+00:00",
+    "updated_at": "2025-03-06T21:08:32.000+00:00",
+    "changes_count": "48",
+    "references": {
+      "full": "devteam/backend-core!38"
+    },
+    "reviewers": [
+      {
+        "id": 2001,
+        "username": "ivanova-ea"
+      }
+    ]
+  }
+]

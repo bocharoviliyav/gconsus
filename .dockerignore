@@ -1,0 +1,12 @@
+**/.git
+**/.gitignore
+**/Dockerfile
+**/helm
+**/*~
+**/.dockerignore
+**/*.md
+
+.dev
+.data
+vendor
+*.csv

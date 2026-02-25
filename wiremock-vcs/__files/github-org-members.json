@@ -1,0 +1,72 @@
+[
+  {
+    "login": "ivanov-ii",
+    "id": 1001,
+    "name": "Ivanov Ivan",
+    "email": "ivanov-ii@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1001"
+  },
+  {
+    "login": "petrov-pp",
+    "id": 1002,
+    "name": "Petrov Petr",
+    "email": "petrov-pp@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1002"
+  },
+  {
+    "login": "sidorov-ak",
+    "id": 1003,
+    "name": "Sidorov Alexey",
+    "email": "sidorov-ak@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1003"
+  },
+  {
+    "login": "kuznetsova-mv",
+    "id": 1004,
+    "name": "Kuznetsova Maria",
+    "email": "kuznetsova-mv@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1004"
+  },
+  {
+    "login": "volkov-ds",
+    "id": 1005,
+    "name": "Volkov Dmitry",
+    "email": "volkov-ds@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1005"
+  },
+  {
+    "login": "morozova-nn",
+    "id": 1006,
+    "name": "Morozova Natalia",
+    "email": "morozova-nn@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1006"
+  },
+  {
+    "login": "sokolov-iv",
+    "id": 1007,
+    "name": "Sokolov Igor",
+    "email": "sokolov-iv@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1007"
+  },
+  {
+    "login": "popova-os",
+    "id": 1008,
+    "name": "Popova Olga",
+    "email": "popova-os@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1008"
+  },
+  {
+    "login": "lebedev-sv",
+    "id": 1009,
+    "name": "Lebedev Sergey",
+    "email": "lebedev-sv@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1009"
+  },
+  {
+    "login": "novikova-ta",
+    "id": 1010,
+    "name": "Novikova Tatyana",
+    "email": "novikova-ta@company.ru",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1010"
+  }
+]

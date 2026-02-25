@@ -1,0 +1,102 @@
+{
+  "mappings": [
+    {
+      "name": "GitHub - GET /user (auth check)",
+      "request": {
+        "method": "GET",
+        "url": "/api/v3/user"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "github-user.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "name": "GitHub - GET /orgs/{org}/repos",
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v3/orgs/.*/repos"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "github-repos.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "name": "GitHub - GET /user/repos",
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v3/user/repos.*"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "github-repos.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "name": "GitHub - GET /repos/{owner}/{repo}/pulls/{number}",
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v3/repos/.*/pulls/[0-9]+"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "github-pull-request.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "name": "GitHub - GET /repos/{owner}/{repo}/pulls/{number}/reviews",
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v3/repos/.*/pulls/[0-9]+/reviews.*"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "github-reviews.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "name": "GitHub - GET /orgs/{org}/members",
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v3/orgs/.*/members"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "github-org-members.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "name": "GitHub - GraphQL",
+      "request": {
+        "method": "POST",
+        "url": "/api/graphql"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "github-graphql-contributions.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

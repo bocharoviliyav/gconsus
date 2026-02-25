@@ -1,0 +1,282 @@
+[
+  {
+    "id": 101,
+    "name": "backend-core",
+    "path_with_namespace": "devteam/backend-core",
+    "description": "Project backend-core",
+    "web_url": "https://gitlab.example.com/devteam/backend-core",
+    "star_count": 9,
+    "forks_count": 0,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 102,
+    "name": "frontend-app",
+    "path_with_namespace": "devteam/frontend-app",
+    "description": "Project frontend-app",
+    "web_url": "https://gitlab.example.com/devteam/frontend-app",
+    "star_count": 13,
+    "forks_count": 0,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 103,
+    "name": "data-pipeline",
+    "path_with_namespace": "devteam/data-pipeline",
+    "description": "Project data-pipeline",
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline",
+    "star_count": 4,
+    "forks_count": 1,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 104,
+    "name": "auth-service",
+    "path_with_namespace": "devteam/auth-service",
+    "description": "Project auth-service",
+    "web_url": "https://gitlab.example.com/devteam/auth-service",
+    "star_count": 5,
+    "forks_count": 0,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 105,
+    "name": "api-gateway",
+    "path_with_namespace": "devteam/api-gateway",
+    "description": "Project api-gateway",
+    "web_url": "https://gitlab.example.com/devteam/api-gateway",
+    "star_count": 6,
+    "forks_count": 4,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 106,
+    "name": "infra-configs",
+    "path_with_namespace": "devteam/infra-configs",
+    "description": "Project infra-configs",
+    "web_url": "https://gitlab.example.com/devteam/infra-configs",
+    "star_count": 0,
+    "forks_count": 4,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 107,
+    "name": "monitoring-stack",
+    "path_with_namespace": "devteam/monitoring-stack",
+    "description": "Project monitoring-stack",
+    "web_url": "https://gitlab.example.com/devteam/monitoring-stack",
+    "star_count": 4,
+    "forks_count": 0,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 108,
+    "name": "ci-cd-templates",
+    "path_with_namespace": "devteam/ci-cd-templates",
+    "description": "Project ci-cd-templates",
+    "web_url": "https://gitlab.example.com/devteam/ci-cd-templates",
+    "star_count": 9,
+    "forks_count": 5,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 109,
+    "name": "mobile-app",
+    "path_with_namespace": "devteam/mobile-app",
+    "description": "Project mobile-app",
+    "web_url": "https://gitlab.example.com/devteam/mobile-app",
+    "star_count": 8,
+    "forks_count": 2,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 110,
+    "name": "docs-portal",
+    "path_with_namespace": "devteam/docs-portal",
+    "description": "Project docs-portal",
+    "web_url": "https://gitlab.example.com/devteam/docs-portal",
+    "star_count": 1,
+    "forks_count": 5,
+    "namespace": {
+      "full_path": "devteam"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 111,
+    "name": "analytics-engine",
+    "path_with_namespace": "platform/analytics-engine",
+    "description": "Project analytics-engine",
+    "web_url": "https://gitlab.example.com/platform/analytics-engine",
+    "star_count": 6,
+    "forks_count": 1,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 112,
+    "name": "payment-service",
+    "path_with_namespace": "platform/payment-service",
+    "description": "Project payment-service",
+    "web_url": "https://gitlab.example.com/platform/payment-service",
+    "star_count": 6,
+    "forks_count": 0,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 113,
+    "name": "notification-hub",
+    "path_with_namespace": "platform/notification-hub",
+    "description": "Project notification-hub",
+    "web_url": "https://gitlab.example.com/platform/notification-hub",
+    "star_count": 5,
+    "forks_count": 3,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 114,
+    "name": "search-service",
+    "path_with_namespace": "platform/search-service",
+    "description": "Project search-service",
+    "web_url": "https://gitlab.example.com/platform/search-service",
+    "star_count": 7,
+    "forks_count": 5,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 115,
+    "name": "user-management",
+    "path_with_namespace": "platform/user-management",
+    "description": "Project user-management",
+    "web_url": "https://gitlab.example.com/platform/user-management",
+    "star_count": 2,
+    "forks_count": 5,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 116,
+    "name": "cache-layer",
+    "path_with_namespace": "platform/cache-layer",
+    "description": "Project cache-layer",
+    "web_url": "https://gitlab.example.com/platform/cache-layer",
+    "star_count": 6,
+    "forks_count": 5,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 117,
+    "name": "logging-service",
+    "path_with_namespace": "platform/logging-service",
+    "description": "Project logging-service",
+    "web_url": "https://gitlab.example.com/platform/logging-service",
+    "star_count": 10,
+    "forks_count": 0,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 118,
+    "name": "scheduler",
+    "path_with_namespace": "platform/scheduler",
+    "description": "Project scheduler",
+    "web_url": "https://gitlab.example.com/platform/scheduler",
+    "star_count": 9,
+    "forks_count": 5,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 119,
+    "name": "feature-flags",
+    "path_with_namespace": "platform/feature-flags",
+    "description": "Project feature-flags",
+    "web_url": "https://gitlab.example.com/platform/feature-flags",
+    "star_count": 2,
+    "forks_count": 5,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  },
+  {
+    "id": 120,
+    "name": "config-server",
+    "path_with_namespace": "platform/config-server",
+    "description": "Project config-server",
+    "web_url": "https://gitlab.example.com/platform/config-server",
+    "star_count": 14,
+    "forks_count": 5,
+    "namespace": {
+      "full_path": "platform"
+    },
+    "created_at": "2024-01-05T08:00:00Z",
+    "last_activity_at": "2025-02-20T17:00:00Z"
+  }
+]

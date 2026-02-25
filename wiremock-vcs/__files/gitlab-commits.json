@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "07d30109419d09419d09419d",
+    "short_id": "05cc593a",
+    "title": "feat: add export functionality",
+    "author_name": "Sidorov Alexey",
+    "author_email": "sidorov-ak@example.com",
+    "authored_date": "2026-02-25T14:08:32.000+00:00",
+    "created_at": "2026-02-25T14:08:32.000+00:00",
+    "committed_date": "2026-02-25T14:08:32.000+00:00",
+    "message": "refactor: extract service layer",
+    "stats": {
+      "additions": 121,
+      "deletions": 35,
+      "total": 22
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0c499d"
+  },
+  {
+    "id": "069b3f0d2c230d2c230d2c23",
+    "short_id": "01a565ec",
+    "title": "test: add unit tests for service",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2026-02-23T10:08:32.000+00:00",
+    "created_at": "2026-02-23T10:08:32.000+00:00",
+    "committed_date": "2026-02-23T10:08:32.000+00:00",
+    "message": "fix: correct SQL query for metrics",
+    "stats": {
+      "additions": 42,
+      "deletions": 6,
+      "total": 171
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/07ac72"
+  },
+  {
+    "id": "0de798029d91029d91029d91",
+    "short_id": "01671c14",
+    "title": "docs: update API reference",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2026-02-20T14:08:32.000+00:00",
+    "created_at": "2026-02-20T14:08:32.000+00:00",
+    "committed_date": "2026-02-20T14:08:32.000+00:00",
+    "message": "chore: update dependencies",
+    "stats": {
+      "additions": 7,
+      "deletions": 32,
+      "total": 129
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/066719"
+  },
+  {
+    "id": "04f1780bd00e0bd00e0bd00e",
+    "short_id": "00fd8225",
+    "title": "chore: update dependencies",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2026-02-19T12:08:32.000+00:00",
+    "created_at": "2026-02-19T12:08:32.000+00:00",
+    "committed_date": "2026-02-19T12:08:32.000+00:00",
+    "message": "fix: correct SQL query for metrics",
+    "stats": {
+      "additions": 6,
+      "deletions": 79,
+      "total": 74
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/04d4ab"
+  },
+  {
+    "id": "05717c0ae6520ae6520ae652",
+    "short_id": "00df5f4b",
+    "title": "fix: correct date formatting",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2026-02-08T13:08:32.000+00:00",
+    "created_at": "2026-02-08T13:08:32.000+00:00",
+    "committed_date": "2026-02-08T13:08:32.000+00:00",
+    "message": "chore: update dependencies",
+    "stats": {
+      "additions": 138,
+      "deletions": 7,
+      "total": 17
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/085926"
+  },
+  {
+    "id": "0cac3e0bc9d50bc9d50bc9d5",
+    "short_id": "0399dba9",
+    "title": "feat: add webhook integration",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2026-02-03T14:08:32.000+00:00",
+    "created_at": "2026-02-03T14:08:32.000+00:00",
+    "committed_date": "2026-02-03T14:08:32.000+00:00",
+    "message": "test: add unit tests for service",
+    "stats": {
+      "additions": 91,
+      "deletions": 56,
+      "total": 257
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0eeb5b"
+  },
+  {
+    "id": "0436ce0a4de90a4de90a4de9",
+    "short_id": "05a7d5d5",
+    "title": "perf: optimize database queries",
+    "author_name": "Popova Olga",
+    "author_email": "popova-os@example.com",
+    "authored_date": "2026-01-26T14:08:32.000+00:00",
+    "created_at": "2026-01-26T14:08:32.000+00:00",
+    "committed_date": "2026-01-26T14:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 85,
+      "deletions": 64,
+      "total": 48
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0211a3"
+  },
+  {
+    "id": "0f2923074b0e074b0e074b0e",
+    "short_id": "0240e3ad",
+    "title": "fix: correct SQL query for metrics",
+    "author_name": "Popova Olga",
+    "author_email": "popova-os@example.com",
+    "authored_date": "2026-01-23T10:08:32.000+00:00",
+    "created_at": "2026-01-23T10:08:32.000+00:00",
+    "committed_date": "2026-01-23T10:08:32.000+00:00",
+    "message": "chore: update dependencies",
+    "stats": {
+      "additions": 189,
+      "deletions": 51,
+      "total": 198
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0c4a4d"
+  },
+  {
+    "id": "0abcd50a87a00a87a00a87a0",
+    "short_id": "057650e7",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2026-01-20T09:08:32.000+00:00",
+    "created_at": "2026-01-20T09:08:32.000+00:00",
+    "committed_date": "2026-01-20T09:08:32.000+00:00",
+    "message": "feat: add pagination support",
+    "stats": {
+      "additions": 155,
+      "deletions": 36,
+      "total": 118
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/08cff5"
+  },
+  {
+    "id": "0ea13f0f03080f03080f0308",
+    "short_id": "02b16785",
+    "title": "fix: handle edge case in parser",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2026-01-20T05:08:32.000+00:00",
+    "created_at": "2026-01-20T05:08:32.000+00:00",
+    "committed_date": "2026-01-20T05:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 96,
+      "deletions": 30,
+      "total": 81
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0559de"
+  },
+  {
+    "id": "02078c07ec7307ec7307ec73",
+    "short_id": "02aa9216",
+    "title": "perf: optimize database queries",
+    "author_name": "Morozova Natalia",
+    "author_email": "morozova-nn@example.com",
+    "authored_date": "2026-01-16T06:08:32.000+00:00",
+    "created_at": "2026-01-16T06:08:32.000+00:00",
+    "committed_date": "2026-01-16T06:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 150,
+      "deletions": 18,
+      "total": 63
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0bf581"
+  },
+  {
+    "id": "0a01e60b32920b32920b3292",
+    "short_id": "05019c42",
+    "title": "fix: resolve race condition",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2026-01-12T08:08:32.000+00:00",
+    "created_at": "2026-01-12T08:08:32.000+00:00",
+    "committed_date": "2026-01-12T08:08:32.000+00:00",
+    "message": "fix: resolve null pointer in handler",
+    "stats": {
+      "additions": 121,
+      "deletions": 1,
+      "total": 233
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/04d381"
+  },
+  {
+    "id": "0d66490e02cd0e02cd0e02cd",
+    "short_id": "0395ce27",
+    "title": "chore: update dependencies",
+    "author_name": "Morozova Natalia",
+    "author_email": "morozova-nn@example.com",
+    "authored_date": "2026-01-11T15:08:32.000+00:00",
+    "created_at": "2026-01-11T15:08:32.000+00:00",
+    "committed_date": "2026-01-11T15:08:32.000+00:00",
+    "message": "perf: optimize database queries",
+    "stats": {
+      "additions": 84,
+      "deletions": 21,
+      "total": 120
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0a4e6c"
+  },
+  {
+    "id": "0a4a53037adb037adb037adb",
+    "short_id": "02bf8396",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Popova Olga",
+    "author_email": "popova-os@example.com",
+    "authored_date": "2026-01-11T15:08:32.000+00:00",
+    "created_at": "2026-01-11T15:08:32.000+00:00",
+    "committed_date": "2026-01-11T15:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 85,
+      "deletions": 7,
+      "total": 118
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0a5f89"
+  },
+  {
+    "id": "0eb8af046400046400046400",
+    "short_id": "025a8ce0",
+    "title": "feat: add webhook integration",
+    "author_name": "Sidorov Alexey",
+    "author_email": "sidorov-ak@example.com",
+    "authored_date": "2026-01-06T09:08:32.000+00:00",
+    "created_at": "2026-01-06T09:08:32.000+00:00",
+    "committed_date": "2026-01-06T09:08:32.000+00:00",
+    "message": "chore: update dependencies",
+    "stats": {
+      "additions": 191,
+      "deletions": 49,
+      "total": 191
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/07dcbe"
+  },
+  {
+    "id": "0251b90417de0417de0417de",
+    "short_id": "05895b79",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2026-01-05T05:08:32.000+00:00",
+    "created_at": "2026-01-05T05:08:32.000+00:00",
+    "committed_date": "2026-01-05T05:08:32.000+00:00",
+    "message": "fix: resolve null pointer in handler",
+    "stats": {
+      "additions": 147,
+      "deletions": 25,
+      "total": 95
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0455e4"
+  },
+  {
+    "id": "0c18ac03f19b03f19b03f19b",
+    "short_id": "00d695e8",
+    "title": "feat: add webhook integration",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2026-01-02T12:08:32.000+00:00",
+    "created_at": "2026-01-02T12:08:32.000+00:00",
+    "committed_date": "2026-01-02T12:08:32.000+00:00",
+    "message": "feat: add webhook integration",
+    "stats": {
+      "additions": 45,
+      "deletions": 67,
+      "total": 140
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0edc30"
+  },
+  {
+    "id": "07dd680b5a7a0b5a7a0b5a7a",
+    "short_id": "059f6283",
+    "title": "feat: implement caching layer",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-12-31T12:08:32.000+00:00",
+    "created_at": "2025-12-31T12:08:32.000+00:00",
+    "committed_date": "2025-12-31T12:08:32.000+00:00",
+    "message": "fix: correct SQL query for metrics",
+    "stats": {
+      "additions": 88,
+      "deletions": 50,
+      "total": 194
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/07f3d6"
+  },
+  {
+    "id": "0d04bf02c23202c23202c232",
+    "short_id": "05580c40",
+    "title": "feat: add webhook integration",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-12-29T15:08:32.000+00:00",
+    "created_at": "2025-12-29T15:08:32.000+00:00",
+    "committed_date": "2025-12-29T15:08:32.000+00:00",
+    "message": "test: add unit tests for service",
+    "stats": {
+      "additions": 66,
+      "deletions": 68,
+      "total": 3
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/04e990"
+  },
+  {
+    "id": "0b6ae107208c07208c07208c",
+    "short_id": "0267d8fb",
+    "title": "feat: add webhook integration",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-12-22T14:08:32.000+00:00",
+    "created_at": "2025-12-22T14:08:32.000+00:00",
+    "committed_date": "2025-12-22T14:08:32.000+00:00",
+    "message": "refactor: extract service layer",
+    "stats": {
+      "additions": 159,
+      "deletions": 25,
+      "total": 275
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/05c780"
+  },
+  {
+    "id": "0a85c40ba8080ba8080ba808",
+    "short_id": "00f521bb",
+    "title": "chore: configure CI pipeline",
+    "author_name": "Popova Olga",
+    "author_email": "popova-os@example.com",
+    "authored_date": "2025-12-21T05:08:32.000+00:00",
+    "created_at": "2025-12-21T05:08:32.000+00:00",
+    "committed_date": "2025-12-21T05:08:32.000+00:00",
+    "message": "fix: correct SQL query for metrics",
+    "stats": {
+      "additions": 2,
+      "deletions": 52,
+      "total": 4
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/05464f"
+  },
+  {
+    "id": "02549e0cc1cd0cc1cd0cc1cd",
+    "short_id": "058162ac",
+    "title": "feat: implement caching layer",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-12-19T10:08:32.000+00:00",
+    "created_at": "2025-12-19T10:08:32.000+00:00",
+    "committed_date": "2025-12-19T10:08:32.000+00:00",
+    "message": "fix: handle edge case in parser",
+    "stats": {
+      "additions": 50,
+      "deletions": 19,
+      "total": 272
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/076507"
+  },
+  {
+    "id": "0ad0b104ddb504ddb504ddb5",
+    "short_id": "05df70c5",
+    "title": "feat: implement caching layer",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-12-18T07:08:32.000+00:00",
+    "created_at": "2025-12-18T07:08:32.000+00:00",
+    "committed_date": "2025-12-18T07:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 171,
+      "deletions": 2,
+      "total": 63
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0342d4"
+  },
+  {
+    "id": "01e25302b40402b40402b404",
+    "short_id": "05b7d09b",
+    "title": "docs: update API reference",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-12-16T09:08:32.000+00:00",
+    "created_at": "2025-12-16T09:08:32.000+00:00",
+    "committed_date": "2025-12-16T09:08:32.000+00:00",
+    "message": "fix: correct SQL query for metrics",
+    "stats": {
+      "additions": 47,
+      "deletions": 77,
+      "total": 126
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/03005c"
+  },
+  {
+    "id": "0e9db90ad13d0ad13d0ad13d",
+    "short_id": "0190cc06",
+    "title": "feat: add pagination support",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-12-14T13:08:32.000+00:00",
+    "created_at": "2025-12-14T13:08:32.000+00:00",
+    "committed_date": "2025-12-14T13:08:32.000+00:00",
+    "message": "test: add unit tests for service",
+    "stats": {
+      "additions": 118,
+      "deletions": 11,
+      "total": 261
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0bcd76"
+  },
+  {
+    "id": "033c810e225c0e225c0e225c",
+    "short_id": "027271e5",
+    "title": "docs: update API reference",
+    "author_name": "Sidorov Alexey",
+    "author_email": "sidorov-ak@example.com",
+    "authored_date": "2025-12-13T14:08:32.000+00:00",
+    "created_at": "2025-12-13T14:08:32.000+00:00",
+    "committed_date": "2025-12-13T14:08:32.000+00:00",
+    "message": "docs: update API reference",
+    "stats": {
+      "additions": 128,
+      "deletions": 33,
+      "total": 125
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0539af"
+  },
+  {
+    "id": "0ce9ae0d6c120d6c120d6c12",
+    "short_id": "00e1388c",
+    "title": "test: add unit tests for service",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-12-07T06:08:32.000+00:00",
+    "created_at": "2025-12-07T06:08:32.000+00:00",
+    "committed_date": "2025-12-07T06:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 185,
+      "deletions": 58,
+      "total": 65
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0b6f7f"
+  },
+  {
+    "id": "0cdb8506dd5e06dd5e06dd5e",
+    "short_id": "04efda78",
+    "title": "test: add unit tests for service",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-12-06T11:08:32.000+00:00",
+    "created_at": "2025-12-06T11:08:32.000+00:00",
+    "committed_date": "2025-12-06T11:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 110,
+      "deletions": 11,
+      "total": 272
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/06b9e4"
+  },
+  {
+    "id": "0ba60b0bc9500bc9500bc950",
+    "short_id": "015d4b81",
+    "title": "chore: configure CI pipeline",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-12-04T08:08:32.000+00:00",
+    "created_at": "2025-12-04T08:08:32.000+00:00",
+    "committed_date": "2025-12-04T08:08:32.000+00:00",
+    "message": "feat: add pagination support",
+    "stats": {
+      "additions": 79,
+      "deletions": 28,
+      "total": 19
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0b8fb8"
+  },
+  {
+    "id": "02602507df6b07df6b07df6b",
+    "short_id": "03a49ecb",
+    "title": "fix: correct date formatting",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-12-03T11:08:32.000+00:00",
+    "created_at": "2025-12-03T11:08:32.000+00:00",
+    "committed_date": "2025-12-03T11:08:32.000+00:00",
+    "message": "docs: update API reference",
+    "stats": {
+      "additions": 192,
+      "deletions": 62,
+      "total": 265
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/093ed0"
+  },
+  {
+    "id": "024e5f04be3d04be3d04be3d",
+    "short_id": "01ec2f9f",
+    "title": "test: add unit tests for service",
+    "author_name": "Sidorov Alexey",
+    "author_email": "sidorov-ak@example.com",
+    "authored_date": "2025-11-30T16:08:32.000+00:00",
+    "created_at": "2025-11-30T16:08:32.000+00:00",
+    "committed_date": "2025-11-30T16:08:32.000+00:00",
+    "message": "fix: handle edge case in parser",
+    "stats": {
+      "additions": 106,
+      "deletions": 29,
+      "total": 222
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0376a8"
+  },
+  {
+    "id": "0e81c0023a92023a92023a92",
+    "short_id": "032a590d",
+    "title": "test: add unit tests for service",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-11-29T10:08:32.000+00:00",
+    "created_at": "2025-11-29T10:08:32.000+00:00",
+    "committed_date": "2025-11-29T10:08:32.000+00:00",
+    "message": "fix: correct SQL query for metrics",
+    "stats": {
+      "additions": 137,
+      "deletions": 8,
+      "total": 64
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/099a50"
+  },
+  {
+    "id": "0ea03e022238022238022238",
+    "short_id": "042df4fd",
+    "title": "perf: optimize database queries",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-11-24T15:08:32.000+00:00",
+    "created_at": "2025-11-24T15:08:32.000+00:00",
+    "committed_date": "2025-11-24T15:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 77,
+      "deletions": 52,
+      "total": 88
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/039567"
+  },
+  {
+    "id": "0d4adb09025f09025f09025f",
+    "short_id": "0343c97d",
+    "title": "chore: configure CI pipeline",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-11-19T16:08:32.000+00:00",
+    "created_at": "2025-11-19T16:08:32.000+00:00",
+    "committed_date": "2025-11-19T16:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 80,
+      "deletions": 65,
+      "total": 236
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0c280c"
+  },
+  {
+    "id": "0ad6bc0ad0290ad0290ad029",
+    "short_id": "0104d939",
+    "title": "test: add unit tests for service",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-11-15T15:08:32.000+00:00",
+    "created_at": "2025-11-15T15:08:32.000+00:00",
+    "committed_date": "2025-11-15T15:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 68,
+      "deletions": 58,
+      "total": 248
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0dfc65"
+  },
+  {
+    "id": "0d5e130386f80386f80386f8",
+    "short_id": "012f0d2e",
+    "title": "feat: add pagination support",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-11-09T16:08:32.000+00:00",
+    "created_at": "2025-11-09T16:08:32.000+00:00",
+    "committed_date": "2025-11-09T16:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 175,
+      "deletions": 42,
+      "total": 9
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/07b389"
+  },
+  {
+    "id": "03804906c25006c25006c250",
+    "short_id": "03185677",
+    "title": "fix: correct SQL query for metrics",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-11-07T13:08:32.000+00:00",
+    "created_at": "2025-11-07T13:08:32.000+00:00",
+    "committed_date": "2025-11-07T13:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 96,
+      "deletions": 39,
+      "total": 57
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/07e799"
+  },
+  {
+    "id": "0ac24109f69709f69709f697",
+    "short_id": "05931eeb",
+    "title": "fix: correct SQL query for metrics",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-11-05T06:08:32.000+00:00",
+    "created_at": "2025-11-05T06:08:32.000+00:00",
+    "committed_date": "2025-11-05T06:08:32.000+00:00",
+    "message": "feat: add webhook integration",
+    "stats": {
+      "additions": 58,
+      "deletions": 14,
+      "total": 244
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/040bfb"
+  },
+  {
+    "id": "0e59c2092698092698092698",
+    "short_id": "031d0ac8",
+    "title": "chore: update dependencies",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-11-03T09:08:32.000+00:00",
+    "created_at": "2025-11-03T09:08:32.000+00:00",
+    "committed_date": "2025-11-03T09:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 56,
+      "deletions": 28,
+      "total": 40
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/03ebe1"
+  },
+  {
+    "id": "08277a0da5d60da5d60da5d6",
+    "short_id": "059596d9",
+    "title": "fix: correct date formatting",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-11-03T06:08:32.000+00:00",
+    "created_at": "2025-11-03T06:08:32.000+00:00",
+    "committed_date": "2025-11-03T06:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 2,
+      "deletions": 69,
+      "total": 23
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/058b12"
+  },
+  {
+    "id": "09f3550b7aa10b7aa10b7aa1",
+    "short_id": "04cb2cf2",
+    "title": "perf: optimize database queries",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-10-31T13:08:32.000+00:00",
+    "created_at": "2025-10-31T13:08:32.000+00:00",
+    "committed_date": "2025-10-31T13:08:32.000+00:00",
+    "message": "fix: correct SQL query for metrics",
+    "stats": {
+      "additions": 190,
+      "deletions": 73,
+      "total": 57
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/05698e"
+  },
+  {
+    "id": "038549024db3024db3024db3",
+    "short_id": "0354b2eb",
+    "title": "feat: add pagination support",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-10-13T16:08:32.000+00:00",
+    "created_at": "2025-10-13T16:08:32.000+00:00",
+    "committed_date": "2025-10-13T16:08:32.000+00:00",
+    "message": "refactor: extract service layer",
+    "stats": {
+      "additions": 3,
+      "deletions": 5,
+      "total": 261
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/033d86"
+  },
+  {
+    "id": "01ec4f09c69609c69609c696",
+    "short_id": "03dcca5f",
+    "title": "feat: implement caching layer",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-10-09T12:08:32.000+00:00",
+    "created_at": "2025-10-09T12:08:32.000+00:00",
+    "committed_date": "2025-10-09T12:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 48,
+      "deletions": 33,
+      "total": 59
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/05e548"
+  },
+  {
+    "id": "0ec4ad040386040386040386",
+    "short_id": "03b001cd",
+    "title": "fix: correct SQL query for metrics",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-10-01T06:08:32.000+00:00",
+    "created_at": "2025-10-01T06:08:32.000+00:00",
+    "committed_date": "2025-10-01T06:08:32.000+00:00",
+    "message": "refactor: extract service layer",
+    "stats": {
+      "additions": 140,
+      "deletions": 75,
+      "total": 238
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/091dbb"
+  },
+  {
+    "id": "0253800dbddb0dbddb0dbddb",
+    "short_id": "0106cf59",
+    "title": "perf: optimize database queries",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-09-24T14:08:32.000+00:00",
+    "created_at": "2025-09-24T14:08:32.000+00:00",
+    "committed_date": "2025-09-24T14:08:32.000+00:00",
+    "message": "docs: update API reference",
+    "stats": {
+      "additions": 10,
+      "deletions": 39,
+      "total": 234
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0df390"
+  },
+  {
+    "id": "043d0d033990033990033990",
+    "short_id": "010476b2",
+    "title": "feat: add export functionality",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-09-20T11:08:32.000+00:00",
+    "created_at": "2025-09-20T11:08:32.000+00:00",
+    "committed_date": "2025-09-20T11:08:32.000+00:00",
+    "message": "docs: update API reference",
+    "stats": {
+      "additions": 117,
+      "deletions": 77,
+      "total": 204
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/026ce9"
+  },
+  {
+    "id": "03d952077f4c077f4c077f4c",
+    "short_id": "05977e5a",
+    "title": "docs: update API reference",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-09-17T05:08:32.000+00:00",
+    "created_at": "2025-09-17T05:08:32.000+00:00",
+    "committed_date": "2025-09-17T05:08:32.000+00:00",
+    "message": "refactor: extract service layer",
+    "stats": {
+      "additions": 4,
+      "deletions": 71,
+      "total": 75
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/04ccbe"
+  },
+  {
+    "id": "044a8604a5dd04a5dd04a5dd",
+    "short_id": "04542e67",
+    "title": "fix: resolve race condition",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-09-07T12:08:32.000+00:00",
+    "created_at": "2025-09-07T12:08:32.000+00:00",
+    "committed_date": "2025-09-07T12:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 184,
+      "deletions": 22,
+      "total": 151
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/05db2a"
+  },
+  {
+    "id": "0d9aa80343ae0343ae0343ae",
+    "short_id": "05a1933d",
+    "title": "feat: add export functionality",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-09-06T09:08:32.000+00:00",
+    "created_at": "2025-09-06T09:08:32.000+00:00",
+    "committed_date": "2025-09-06T09:08:32.000+00:00",
+    "message": "test: add unit tests for service",
+    "stats": {
+      "additions": 28,
+      "deletions": 38,
+      "total": 129
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0b5fbb"
+  },
+  {
+    "id": "01d7ce049088049088049088",
+    "short_id": "0454c8c3",
+    "title": "fix: correct date formatting",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-09-03T12:08:32.000+00:00",
+    "created_at": "2025-09-03T12:08:32.000+00:00",
+    "committed_date": "2025-09-03T12:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 28,
+      "deletions": 66,
+      "total": 43
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0c26dc"
+  },
+  {
+    "id": "0adfdd05af2405af2405af24",
+    "short_id": "02aa3edc",
+    "title": "chore: update dependencies",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-08-30T09:08:32.000+00:00",
+    "created_at": "2025-08-30T09:08:32.000+00:00",
+    "committed_date": "2025-08-30T09:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 46,
+      "deletions": 75,
+      "total": 84
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0a17c5"
+  },
+  {
+    "id": "075c7a0313cb0313cb0313cb",
+    "short_id": "03e14ae1",
+    "title": "refactor: extract service layer",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-08-22T09:08:32.000+00:00",
+    "created_at": "2025-08-22T09:08:32.000+00:00",
+    "committed_date": "2025-08-22T09:08:32.000+00:00",
+    "message": "chore: update dependencies",
+    "stats": {
+      "additions": 76,
+      "deletions": 17,
+      "total": 238
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/068701"
+  },
+  {
+    "id": "092229035d9e035d9e035d9e",
+    "short_id": "011fe7af",
+    "title": "perf: optimize database queries",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-08-21T14:08:32.000+00:00",
+    "created_at": "2025-08-21T14:08:32.000+00:00",
+    "committed_date": "2025-08-21T14:08:32.000+00:00",
+    "message": "feat: add pagination support",
+    "stats": {
+      "additions": 44,
+      "deletions": 66,
+      "total": 33
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/018eb2"
+  },
+  {
+    "id": "09aec703d35103d35103d351",
+    "short_id": "03a54b04",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-08-20T15:08:32.000+00:00",
+    "created_at": "2025-08-20T15:08:32.000+00:00",
+    "committed_date": "2025-08-20T15:08:32.000+00:00",
+    "message": "refactor: extract service layer",
+    "stats": {
+      "additions": 66,
+      "deletions": 42,
+      "total": 14
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/09b337"
+  },
+  {
+    "id": "02d33f086075086075086075",
+    "short_id": "04a9ac2d",
+    "title": "fix: handle edge case in parser",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-08-20T09:08:32.000+00:00",
+    "created_at": "2025-08-20T09:08:32.000+00:00",
+    "committed_date": "2025-08-20T09:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 126,
+      "deletions": 18,
+      "total": 251
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0dbe9f"
+  },
+  {
+    "id": "06ab6306dc7206dc7206dc72",
+    "short_id": "05d0016a",
+    "title": "test: add unit tests for service",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-08-19T06:08:32.000+00:00",
+    "created_at": "2025-08-19T06:08:32.000+00:00",
+    "committed_date": "2025-08-19T06:08:32.000+00:00",
+    "message": "fix: resolve null pointer in handler",
+    "stats": {
+      "additions": 180,
+      "deletions": 19,
+      "total": 146
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/079886"
+  },
+  {
+    "id": "0bad2d0d35e00d35e00d35e0",
+    "short_id": "018ac1f1",
+    "title": "fix: correct SQL query for metrics",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-08-16T15:08:32.000+00:00",
+    "created_at": "2025-08-16T15:08:32.000+00:00",
+    "committed_date": "2025-08-16T15:08:32.000+00:00",
+    "message": "fix: handle edge case in parser",
+    "stats": {
+      "additions": 108,
+      "deletions": 42,
+      "total": 274
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/096451"
+  },
+  {
+    "id": "0e067405cc2a05cc2a05cc2a",
+    "short_id": "015b04a2",
+    "title": "feat: add pagination support",
+    "author_name": "Morozova Natalia",
+    "author_email": "morozova-nn@example.com",
+    "authored_date": "2025-08-06T13:08:32.000+00:00",
+    "created_at": "2025-08-06T13:08:32.000+00:00",
+    "committed_date": "2025-08-06T13:08:32.000+00:00",
+    "message": "perf: optimize database queries",
+    "stats": {
+      "additions": 88,
+      "deletions": 37,
+      "total": 212
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0ba0f5"
+  },
+  {
+    "id": "0de929085144085144085144",
+    "short_id": "05b4eba3",
+    "title": "chore: configure CI pipeline",
+    "author_name": "Morozova Natalia",
+    "author_email": "morozova-nn@example.com",
+    "authored_date": "2025-08-06T07:08:32.000+00:00",
+    "created_at": "2025-08-06T07:08:32.000+00:00",
+    "committed_date": "2025-08-06T07:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 8,
+      "deletions": 53,
+      "total": 175
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/089543"
+  },
+  {
+    "id": "086c5a0e600d0e600d0e600d",
+    "short_id": "02a25664",
+    "title": "fix: correct date formatting",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-07-31T12:08:32.000+00:00",
+    "created_at": "2025-07-31T12:08:32.000+00:00",
+    "committed_date": "2025-07-31T12:08:32.000+00:00",
+    "message": "test: add unit tests for service",
+    "stats": {
+      "additions": 27,
+      "deletions": 13,
+      "total": 68
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/034b2b"
+  },
+  {
+    "id": "0aa30402849a02849a02849a",
+    "short_id": "04e4d6cb",
+    "title": "feat: add pagination support",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-07-30T16:08:32.000+00:00",
+    "created_at": "2025-07-30T16:08:32.000+00:00",
+    "committed_date": "2025-07-30T16:08:32.000+00:00",
+    "message": "chore: update dependencies",
+    "stats": {
+      "additions": 8,
+      "deletions": 45,
+      "total": 1
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/04d475"
+  },
+  {
+    "id": "0f2d5f0454be0454be0454be",
+    "short_id": "0383e9aa",
+    "title": "test: add unit tests for service",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-07-30T11:08:32.000+00:00",
+    "created_at": "2025-07-30T11:08:32.000+00:00",
+    "committed_date": "2025-07-30T11:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 134,
+      "deletions": 46,
+      "total": 118
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0c3cec"
+  },
+  {
+    "id": "0bcfca0e930f0e930f0e930f",
+    "short_id": "05e97472",
+    "title": "feat: implement caching layer",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-07-30T11:08:32.000+00:00",
+    "created_at": "2025-07-30T11:08:32.000+00:00",
+    "committed_date": "2025-07-30T11:08:32.000+00:00",
+    "message": "fix: correct SQL query for metrics",
+    "stats": {
+      "additions": 130,
+      "deletions": 73,
+      "total": 22
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0dd1bf"
+  },
+  {
+    "id": "04017709b09d09b09d09b09d",
+    "short_id": "0240f088",
+    "title": "feat: add pagination support",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-07-29T11:08:32.000+00:00",
+    "created_at": "2025-07-29T11:08:32.000+00:00",
+    "committed_date": "2025-07-29T11:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 123,
+      "deletions": 11,
+      "total": 280
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0790d9"
+  },
+  {
+    "id": "0818fc0466d50466d50466d5",
+    "short_id": "03e19076",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-07-28T13:08:32.000+00:00",
+    "created_at": "2025-07-28T13:08:32.000+00:00",
+    "committed_date": "2025-07-28T13:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 159,
+      "deletions": 34,
+      "total": 76
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/083991"
+  },
+  {
+    "id": "0c3b8b02e78b02e78b02e78b",
+    "short_id": "042c39fb",
+    "title": "fix: resolve race condition",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-07-28T12:08:32.000+00:00",
+    "created_at": "2025-07-28T12:08:32.000+00:00",
+    "committed_date": "2025-07-28T12:08:32.000+00:00",
+    "message": "docs: update API reference",
+    "stats": {
+      "additions": 68,
+      "deletions": 44,
+      "total": 254
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0a4711"
+  },
+  {
+    "id": "0c674b0c547e0c547e0c547e",
+    "short_id": "00ecfd2b",
+    "title": "feat: implement caching layer",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-07-25T05:08:32.000+00:00",
+    "created_at": "2025-07-25T05:08:32.000+00:00",
+    "committed_date": "2025-07-25T05:08:32.000+00:00",
+    "message": "docs: update API reference",
+    "stats": {
+      "additions": 36,
+      "deletions": 16,
+      "total": 55
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/072ccd"
+  },
+  {
+    "id": "0863ce0bbffc0bbffc0bbffc",
+    "short_id": "05d3f376",
+    "title": "test: add unit tests for service",
+    "author_name": "Morozova Natalia",
+    "author_email": "morozova-nn@example.com",
+    "authored_date": "2025-07-15T15:08:32.000+00:00",
+    "created_at": "2025-07-15T15:08:32.000+00:00",
+    "committed_date": "2025-07-15T15:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 177,
+      "deletions": 53,
+      "total": 206
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0761e8"
+  },
+  {
+    "id": "0c26e40c9acd0c9acd0c9acd",
+    "short_id": "0404d185",
+    "title": "refactor: extract service layer",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-07-13T06:08:32.000+00:00",
+    "created_at": "2025-07-13T06:08:32.000+00:00",
+    "committed_date": "2025-07-13T06:08:32.000+00:00",
+    "message": "test: add unit tests for service",
+    "stats": {
+      "additions": 109,
+      "deletions": 11,
+      "total": 208
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0d7c46"
+  },
+  {
+    "id": "064a1907d07207d07207d072",
+    "short_id": "0555815e",
+    "title": "docs: update API reference",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-07-10T15:08:32.000+00:00",
+    "created_at": "2025-07-10T15:08:32.000+00:00",
+    "committed_date": "2025-07-10T15:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 59,
+      "deletions": 49,
+      "total": 62
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0e8b52"
+  },
+  {
+    "id": "0d94a00a46c70a46c70a46c7",
+    "short_id": "059ed90e",
+    "title": "feat: add export functionality",
+    "author_name": "Sidorov Alexey",
+    "author_email": "sidorov-ak@example.com",
+    "authored_date": "2025-07-08T13:08:32.000+00:00",
+    "created_at": "2025-07-08T13:08:32.000+00:00",
+    "committed_date": "2025-07-08T13:08:32.000+00:00",
+    "message": "feat: add webhook integration",
+    "stats": {
+      "additions": 115,
+      "deletions": 6,
+      "total": 130
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0f33ba"
+  },
+  {
+    "id": "08751301e6d701e6d701e6d7",
+    "short_id": "05204ebc",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-07-07T09:08:32.000+00:00",
+    "created_at": "2025-07-07T09:08:32.000+00:00",
+    "committed_date": "2025-07-07T09:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 93,
+      "deletions": 41,
+      "total": 174
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0e579b"
+  },
+  {
+    "id": "0757eb04c71004c71004c710",
+    "short_id": "02106354",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-07-06T15:08:32.000+00:00",
+    "created_at": "2025-07-06T15:08:32.000+00:00",
+    "committed_date": "2025-07-06T15:08:32.000+00:00",
+    "message": "fix: handle edge case in parser",
+    "stats": {
+      "additions": 146,
+      "deletions": 55,
+      "total": 184
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/062692"
+  },
+  {
+    "id": "0c54d703999d03999d03999d",
+    "short_id": "0387ed40",
+    "title": "perf: optimize database queries",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-07-05T05:08:32.000+00:00",
+    "created_at": "2025-07-05T05:08:32.000+00:00",
+    "committed_date": "2025-07-05T05:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 43,
+      "deletions": 17,
+      "total": 72
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0a3ce3"
+  },
+  {
+    "id": "082c9208fb8008fb8008fb80",
+    "short_id": "02de7cdf",
+    "title": "docs: update API reference",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-07-02T14:08:32.000+00:00",
+    "created_at": "2025-07-02T14:08:32.000+00:00",
+    "committed_date": "2025-07-02T14:08:32.000+00:00",
+    "message": "fix: correct SQL query for metrics",
+    "stats": {
+      "additions": 183,
+      "deletions": 38,
+      "total": 121
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0f136f"
+  },
+  {
+    "id": "0308a30f26250f26250f2625",
+    "short_id": "05761bc5",
+    "title": "feat: add webhook integration",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-06-30T11:08:32.000+00:00",
+    "created_at": "2025-06-30T11:08:32.000+00:00",
+    "committed_date": "2025-06-30T11:08:32.000+00:00",
+    "message": "perf: optimize database queries",
+    "stats": {
+      "additions": 150,
+      "deletions": 5,
+      "total": 174
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0ccec0"
+  },
+  {
+    "id": "0d4bdf053139053139053139",
+    "short_id": "01e23e81",
+    "title": "perf: optimize database queries",
+    "author_name": "Popova Olga",
+    "author_email": "popova-os@example.com",
+    "authored_date": "2025-06-30T09:08:32.000+00:00",
+    "created_at": "2025-06-30T09:08:32.000+00:00",
+    "committed_date": "2025-06-30T09:08:32.000+00:00",
+    "message": "feat: add webhook integration",
+    "stats": {
+      "additions": 189,
+      "deletions": 21,
+      "total": 142
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0c86bb"
+  },
+  {
+    "id": "040b980a5b750a5b750a5b75",
+    "short_id": "048e6d18",
+    "title": "perf: optimize database queries",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-06-29T09:08:32.000+00:00",
+    "created_at": "2025-06-29T09:08:32.000+00:00",
+    "committed_date": "2025-06-29T09:08:32.000+00:00",
+    "message": "fix: resolve null pointer in handler",
+    "stats": {
+      "additions": 183,
+      "deletions": 10,
+      "total": 189
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/05a9d0"
+  },
+  {
+    "id": "04a53404a6ee04a6ee04a6ee",
+    "short_id": "01ea0795",
+    "title": "test: add unit tests for service",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-06-29T05:08:32.000+00:00",
+    "created_at": "2025-06-29T05:08:32.000+00:00",
+    "committed_date": "2025-06-29T05:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 160,
+      "deletions": 20,
+      "total": 132
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0c257b"
+  },
+  {
+    "id": "0ddce009f41e09f41e09f41e",
+    "short_id": "055c37f2",
+    "title": "fix: correct SQL query for metrics",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-06-25T16:08:32.000+00:00",
+    "created_at": "2025-06-25T16:08:32.000+00:00",
+    "committed_date": "2025-06-25T16:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 14,
+      "deletions": 61,
+      "total": 112
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/05ad26"
+  },
+  {
+    "id": "09ad2e0a3aa90a3aa90a3aa9",
+    "short_id": "042ada8c",
+    "title": "feat: implement caching layer",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-06-25T14:08:32.000+00:00",
+    "created_at": "2025-06-25T14:08:32.000+00:00",
+    "committed_date": "2025-06-25T14:08:32.000+00:00",
+    "message": "feat: add webhook integration",
+    "stats": {
+      "additions": 97,
+      "deletions": 74,
+      "total": 246
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/053bc0"
+  },
+  {
+    "id": "083029054c72054c72054c72",
+    "short_id": "0350adc6",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-06-22T11:08:32.000+00:00",
+    "created_at": "2025-06-22T11:08:32.000+00:00",
+    "committed_date": "2025-06-22T11:08:32.000+00:00",
+    "message": "feat: add webhook integration",
+    "stats": {
+      "additions": 100,
+      "deletions": 51,
+      "total": 4
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/08a18d"
+  },
+  {
+    "id": "0e101907f29707f29707f297",
+    "short_id": "03296e47",
+    "title": "feat: add pagination support",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-06-16T05:08:32.000+00:00",
+    "created_at": "2025-06-16T05:08:32.000+00:00",
+    "committed_date": "2025-06-16T05:08:32.000+00:00",
+    "message": "fix: resolve null pointer in handler",
+    "stats": {
+      "additions": 172,
+      "deletions": 18,
+      "total": 149
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0f2734"
+  },
+  {
+    "id": "088f1904a1ae04a1ae04a1ae",
+    "short_id": "02737ea9",
+    "title": "chore: configure CI pipeline",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-06-13T12:08:32.000+00:00",
+    "created_at": "2025-06-13T12:08:32.000+00:00",
+    "committed_date": "2025-06-13T12:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 127,
+      "deletions": 22,
+      "total": 117
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0cff54"
+  },
+  {
+    "id": "0bc13807b9a607b9a607b9a6",
+    "short_id": "01331b3d",
+    "title": "docs: update API reference",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-06-11T05:08:32.000+00:00",
+    "created_at": "2025-06-11T05:08:32.000+00:00",
+    "committed_date": "2025-06-11T05:08:32.000+00:00",
+    "message": "fix: handle edge case in parser",
+    "stats": {
+      "additions": 192,
+      "deletions": 47,
+      "total": 253
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0af3bf"
+  },
+  {
+    "id": "0cf54a0c392d0c392d0c392d",
+    "short_id": "05f18b4b",
+    "title": "refactor: extract service layer",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-06-10T14:08:32.000+00:00",
+    "created_at": "2025-06-10T14:08:32.000+00:00",
+    "committed_date": "2025-06-10T14:08:32.000+00:00",
+    "message": "docs: update API reference",
+    "stats": {
+      "additions": 38,
+      "deletions": 44,
+      "total": 149
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/09fa4c"
+  },
+  {
+    "id": "01f278076e95076e95076e95",
+    "short_id": "0535ec39",
+    "title": "fix: correct date formatting",
+    "author_name": "Morozova Natalia",
+    "author_email": "morozova-nn@example.com",
+    "authored_date": "2025-06-09T11:08:32.000+00:00",
+    "created_at": "2025-06-09T11:08:32.000+00:00",
+    "committed_date": "2025-06-09T11:08:32.000+00:00",
+    "message": "feat: add webhook integration",
+    "stats": {
+      "additions": 92,
+      "deletions": 62,
+      "total": 20
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0f2216"
+  },
+  {
+    "id": "0da0f70b47f10b47f10b47f1",
+    "short_id": "01b25290",
+    "title": "fix: correct SQL query for metrics",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-06-01T08:08:32.000+00:00",
+    "created_at": "2025-06-01T08:08:32.000+00:00",
+    "committed_date": "2025-06-01T08:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 52,
+      "deletions": 53,
+      "total": 228
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/03696e"
+  },
+  {
+    "id": "0e30c003d14f03d14f03d14f",
+    "short_id": "04990a4c",
+    "title": "perf: optimize database queries",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-05-24T16:08:32.000+00:00",
+    "created_at": "2025-05-24T16:08:32.000+00:00",
+    "committed_date": "2025-05-24T16:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 132,
+      "deletions": 60,
+      "total": 161
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/078288"
+  },
+  {
+    "id": "06989c060566060566060566",
+    "short_id": "0570014c",
+    "title": "feat: add pagination support",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-05-24T11:08:32.000+00:00",
+    "created_at": "2025-05-24T11:08:32.000+00:00",
+    "committed_date": "2025-05-24T11:08:32.000+00:00",
+    "message": "test: add unit tests for service",
+    "stats": {
+      "additions": 195,
+      "deletions": 58,
+      "total": 268
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0b593a"
+  },
+  {
+    "id": "07e33b045672045672045672",
+    "short_id": "019e9365",
+    "title": "chore: configure CI pipeline",
+    "author_name": "Popova Olga",
+    "author_email": "popova-os@example.com",
+    "authored_date": "2025-05-23T15:08:32.000+00:00",
+    "created_at": "2025-05-23T15:08:32.000+00:00",
+    "committed_date": "2025-05-23T15:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 28,
+      "deletions": 27,
+      "total": 246
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0e6bdd"
+  },
+  {
+    "id": "0592b70a55050a55050a5505",
+    "short_id": "056b5b64",
+    "title": "fix: correct SQL query for metrics",
+    "author_name": "Morozova Natalia",
+    "author_email": "morozova-nn@example.com",
+    "authored_date": "2025-05-21T05:08:32.000+00:00",
+    "created_at": "2025-05-21T05:08:32.000+00:00",
+    "committed_date": "2025-05-21T05:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 79,
+      "deletions": 78,
+      "total": 267
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0b2976"
+  },
+  {
+    "id": "03a1c8090bab090bab090bab",
+    "short_id": "01d4259f",
+    "title": "perf: optimize database queries",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-05-19T12:08:32.000+00:00",
+    "created_at": "2025-05-19T12:08:32.000+00:00",
+    "committed_date": "2025-05-19T12:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 143,
+      "deletions": 35,
+      "total": 203
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/096316"
+  },
+  {
+    "id": "0c838403e22603e22603e226",
+    "short_id": "03a5e402",
+    "title": "fix: correct date formatting",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-05-16T14:08:32.000+00:00",
+    "created_at": "2025-05-16T14:08:32.000+00:00",
+    "committed_date": "2025-05-16T14:08:32.000+00:00",
+    "message": "fix: handle edge case in parser",
+    "stats": {
+      "additions": 183,
+      "deletions": 46,
+      "total": 57
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/037bff"
+  },
+  {
+    "id": "01d04008ba5b08ba5b08ba5b",
+    "short_id": "04056fa7",
+    "title": "refactor: extract service layer",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-05-16T06:08:32.000+00:00",
+    "created_at": "2025-05-16T06:08:32.000+00:00",
+    "committed_date": "2025-05-16T06:08:32.000+00:00",
+    "message": "fix: resolve race condition",
+    "stats": {
+      "additions": 98,
+      "deletions": 51,
+      "total": 130
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/05c914"
+  },
+  {
+    "id": "08aecf07db9a07db9a07db9a",
+    "short_id": "02ec3d31",
+    "title": "feat: add webhook integration",
+    "author_name": "Novikova Tatyana",
+    "author_email": "novikova-ta@example.com",
+    "authored_date": "2025-05-08T05:08:32.000+00:00",
+    "created_at": "2025-05-08T05:08:32.000+00:00",
+    "committed_date": "2025-05-08T05:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 163,
+      "deletions": 70,
+      "total": 199
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0268fd"
+  },
+  {
+    "id": "081dc80a092b0a092b0a092b",
+    "short_id": "02c5eded",
+    "title": "refactor: extract service layer",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-05-01T15:08:32.000+00:00",
+    "created_at": "2025-05-01T15:08:32.000+00:00",
+    "committed_date": "2025-05-01T15:08:32.000+00:00",
+    "message": "fix: resolve race condition",
+    "stats": {
+      "additions": 22,
+      "deletions": 70,
+      "total": 123
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0f310c"
+  },
+  {
+    "id": "03c819048eda048eda048eda",
+    "short_id": "04c82072",
+    "title": "chore: update dependencies",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-04-30T10:08:32.000+00:00",
+    "created_at": "2025-04-30T10:08:32.000+00:00",
+    "committed_date": "2025-04-30T10:08:32.000+00:00",
+    "message": "docs: update API reference",
+    "stats": {
+      "additions": 200,
+      "deletions": 71,
+      "total": 144
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/088a1b"
+  },
+  {
+    "id": "06d18c087399087399087399",
+    "short_id": "055c0932",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-04-30T08:08:32.000+00:00",
+    "created_at": "2025-04-30T08:08:32.000+00:00",
+    "committed_date": "2025-04-30T08:08:32.000+00:00",
+    "message": "feat: add webhook integration",
+    "stats": {
+      "additions": 14,
+      "deletions": 49,
+      "total": 199
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/096451"
+  },
+  {
+    "id": "0cd1d30cd3680cd3680cd368",
+    "short_id": "0174d078",
+    "title": "docs: update API reference",
+    "author_name": "Volkov Dmitry",
+    "author_email": "volkov-ds@example.com",
+    "authored_date": "2025-04-25T14:08:32.000+00:00",
+    "created_at": "2025-04-25T14:08:32.000+00:00",
+    "committed_date": "2025-04-25T14:08:32.000+00:00",
+    "message": "fix: resolve race condition",
+    "stats": {
+      "additions": 188,
+      "deletions": 51,
+      "total": 92
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/073035"
+  },
+  {
+    "id": "0589a90398bc0398bc0398bc",
+    "short_id": "037d9697",
+    "title": "refactor: extract service layer",
+    "author_name": "Sidorov Alexey",
+    "author_email": "sidorov-ak@example.com",
+    "authored_date": "2025-04-19T13:08:32.000+00:00",
+    "created_at": "2025-04-19T13:08:32.000+00:00",
+    "committed_date": "2025-04-19T13:08:32.000+00:00",
+    "message": "chore: update dependencies",
+    "stats": {
+      "additions": 154,
+      "deletions": 29,
+      "total": 205
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/05ce98"
+  },
+  {
+    "id": "0c7c5502145e02145e02145e",
+    "short_id": "0525ff8b",
+    "title": "chore: configure CI pipeline",
+    "author_name": "Popova Olga",
+    "author_email": "popova-os@example.com",
+    "authored_date": "2025-04-12T12:08:32.000+00:00",
+    "created_at": "2025-04-12T12:08:32.000+00:00",
+    "committed_date": "2025-04-12T12:08:32.000+00:00",
+    "message": "feat: add pagination support",
+    "stats": {
+      "additions": 61,
+      "deletions": 33,
+      "total": 64
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0257f6"
+  },
+  {
+    "id": "0740f206c45806c45806c458",
+    "short_id": "0453c6d7",
+    "title": "fix: resolve null pointer in handler",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-04-09T11:08:32.000+00:00",
+    "created_at": "2025-04-09T11:08:32.000+00:00",
+    "committed_date": "2025-04-09T11:08:32.000+00:00",
+    "message": "feat: add export functionality",
+    "stats": {
+      "additions": 39,
+      "deletions": 41,
+      "total": 44
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0beafe"
+  },
+  {
+    "id": "0248550ba12e0ba12e0ba12e",
+    "short_id": "01791e6a",
+    "title": "feat: add pagination support",
+    "author_name": "Ivanova Elena",
+    "author_email": "ivanova-ea@example.com",
+    "authored_date": "2025-04-08T14:08:32.000+00:00",
+    "created_at": "2025-04-08T14:08:32.000+00:00",
+    "committed_date": "2025-04-08T14:08:32.000+00:00",
+    "message": "fix: resolve null pointer in handler",
+    "stats": {
+      "additions": 199,
+      "deletions": 70,
+      "total": 231
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0503b4"
+  },
+  {
+    "id": "0e54e8055595055595055595",
+    "short_id": "05f1eb67",
+    "title": "fix: correct SQL query for metrics",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-04-06T12:08:32.000+00:00",
+    "created_at": "2025-04-06T12:08:32.000+00:00",
+    "committed_date": "2025-04-06T12:08:32.000+00:00",
+    "message": "fix: handle edge case in parser",
+    "stats": {
+      "additions": 156,
+      "deletions": 36,
+      "total": 219
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/077935"
+  },
+  {
+    "id": "0b27f0055180055180055180",
+    "short_id": "04aee06b",
+    "title": "chore: update dependencies",
+    "author_name": "Popova Olga",
+    "author_email": "popova-os@example.com",
+    "authored_date": "2025-04-04T09:08:32.000+00:00",
+    "created_at": "2025-04-04T09:08:32.000+00:00",
+    "committed_date": "2025-04-04T09:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 84,
+      "deletions": 63,
+      "total": 231
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/03a1bb"
+  },
+  {
+    "id": "0394260a18a70a18a70a18a7",
+    "short_id": "023c50a1",
+    "title": "docs: update API reference",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-03-27T05:08:32.000+00:00",
+    "created_at": "2025-03-27T05:08:32.000+00:00",
+    "committed_date": "2025-03-27T05:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 185,
+      "deletions": 18,
+      "total": 60
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0693e9"
+  },
+  {
+    "id": "03b74a03a2c103a2c103a2c1",
+    "short_id": "03fd0d30",
+    "title": "feat: implement caching layer",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-03-26T16:08:32.000+00:00",
+    "created_at": "2025-03-26T16:08:32.000+00:00",
+    "committed_date": "2025-03-26T16:08:32.000+00:00",
+    "message": "fix: handle edge case in parser",
+    "stats": {
+      "additions": 23,
+      "deletions": 3,
+      "total": 57
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/02089a"
+  },
+  {
+    "id": "0259c7031908031908031908",
+    "short_id": "0346cc96",
+    "title": "test: add unit tests for service",
+    "author_name": "Morozova Natalia",
+    "author_email": "morozova-nn@example.com",
+    "authored_date": "2025-03-26T15:08:32.000+00:00",
+    "created_at": "2025-03-26T15:08:32.000+00:00",
+    "committed_date": "2025-03-26T15:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 80,
+      "deletions": 62,
+      "total": 128
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/061248"
+  },
+  {
+    "id": "0910020e7d6d0e7d6d0e7d6d",
+    "short_id": "0290af4d",
+    "title": "fix: handle edge case in parser",
+    "author_name": "Sidorov Alexey",
+    "author_email": "sidorov-ak@example.com",
+    "authored_date": "2025-03-20T08:08:32.000+00:00",
+    "created_at": "2025-03-20T08:08:32.000+00:00",
+    "committed_date": "2025-03-20T08:08:32.000+00:00",
+    "message": "perf: optimize database queries",
+    "stats": {
+      "additions": 101,
+      "deletions": 67,
+      "total": 103
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/04b9df"
+  },
+  {
+    "id": "05820d0b67790b67790b6779",
+    "short_id": "0503c7ca",
+    "title": "fix: resolve race condition",
+    "author_name": "Morozova Natalia",
+    "author_email": "morozova-nn@example.com",
+    "authored_date": "2025-03-18T15:08:32.000+00:00",
+    "created_at": "2025-03-18T15:08:32.000+00:00",
+    "committed_date": "2025-03-18T15:08:32.000+00:00",
+    "message": "feat: add pagination support",
+    "stats": {
+      "additions": 84,
+      "deletions": 29,
+      "total": 78
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/088ef3"
+  },
+  {
+    "id": "077150078fd4078fd4078fd4",
+    "short_id": "04e1e06c",
+    "title": "perf: optimize database queries",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-03-16T06:08:32.000+00:00",
+    "created_at": "2025-03-16T06:08:32.000+00:00",
+    "committed_date": "2025-03-16T06:08:32.000+00:00",
+    "message": "perf: optimize database queries",
+    "stats": {
+      "additions": 150,
+      "deletions": 30,
+      "total": 19
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/06efbb"
+  },
+  {
+    "id": "0377670b1c110b1c110b1c11",
+    "short_id": "0356defd",
+    "title": "feat: add pagination support",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-03-14T10:08:32.000+00:00",
+    "created_at": "2025-03-14T10:08:32.000+00:00",
+    "committed_date": "2025-03-14T10:08:32.000+00:00",
+    "message": "fix: handle edge case in parser",
+    "stats": {
+      "additions": 125,
+      "deletions": 69,
+      "total": 179
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/059311"
+  },
+  {
+    "id": "085a68032f5f032f5f032f5f",
+    "short_id": "0377a602",
+    "title": "docs: update API reference",
+    "author_name": "Petrov Petr",
+    "author_email": "petrov-pp@example.com",
+    "authored_date": "2025-03-13T09:08:32.000+00:00",
+    "created_at": "2025-03-13T09:08:32.000+00:00",
+    "committed_date": "2025-03-13T09:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 93,
+      "deletions": 44,
+      "total": 102
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/04aa3f"
+  },
+  {
+    "id": "05c5c1046779046779046779",
+    "short_id": "040d3911",
+    "title": "feat: implement caching layer",
+    "author_name": "Lebedev Sergey",
+    "author_email": "lebedev-sv@example.com",
+    "authored_date": "2025-03-13T07:08:32.000+00:00",
+    "created_at": "2025-03-13T07:08:32.000+00:00",
+    "committed_date": "2025-03-13T07:08:32.000+00:00",
+    "message": "feat: implement caching layer",
+    "stats": {
+      "additions": 157,
+      "deletions": 34,
+      "total": 125
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0ba633"
+  },
+  {
+    "id": "0413470d25de0d25de0d25de",
+    "short_id": "03fa60e1",
+    "title": "refactor: extract service layer",
+    "author_name": "Sokolov Igor",
+    "author_email": "sokolov-iv@example.com",
+    "authored_date": "2025-03-12T07:08:32.000+00:00",
+    "created_at": "2025-03-12T07:08:32.000+00:00",
+    "committed_date": "2025-03-12T07:08:32.000+00:00",
+    "message": "chore: configure CI pipeline",
+    "stats": {
+      "additions": 194,
+      "deletions": 6,
+      "total": 29
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0a4282"
+  },
+  {
+    "id": "049bf70dc4ba0dc4ba0dc4ba",
+    "short_id": "04526fe3",
+    "title": "perf: optimize database queries",
+    "author_name": "Popova Olga",
+    "author_email": "popova-os@example.com",
+    "authored_date": "2025-03-09T13:08:32.000+00:00",
+    "created_at": "2025-03-09T13:08:32.000+00:00",
+    "committed_date": "2025-03-09T13:08:32.000+00:00",
+    "message": "test: add unit tests for service",
+    "stats": {
+      "additions": 102,
+      "deletions": 23,
+      "total": 91
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0d88a6"
+  },
+  {
+    "id": "09a2000c72220c72220c7222",
+    "short_id": "05132f0b",
+    "title": "feat: add webhook integration",
+    "author_name": "Sidorov Alexey",
+    "author_email": "sidorov-ak@example.com",
+    "authored_date": "2025-03-02T16:08:32.000+00:00",
+    "created_at": "2025-03-02T16:08:32.000+00:00",
+    "committed_date": "2025-03-02T16:08:32.000+00:00",
+    "message": "chore: update dependencies",
+    "stats": {
+      "additions": 143,
+      "deletions": 12,
+      "total": 76
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/03b808"
+  },
+  {
+    "id": "042537054633054633054633",
+    "short_id": "04318c38",
+    "title": "feat: add webhook integration",
+    "author_name": "Sidorov Alexey",
+    "author_email": "sidorov-ak@example.com",
+    "authored_date": "2025-02-27T10:08:32.000+00:00",
+    "created_at": "2025-02-27T10:08:32.000+00:00",
+    "committed_date": "2025-02-27T10:08:32.000+00:00",
+    "message": "fix: correct date formatting",
+    "stats": {
+      "additions": 156,
+      "deletions": 30,
+      "total": 2
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/0d43e8"
+  },
+  {
+    "id": "0adbf608b2a708b2a708b2a7",
+    "short_id": "04f57412",
+    "title": "docs: update API reference",
+    "author_name": "Kuznetsova Maria",
+    "author_email": "kuznetsova-mv@example.com",
+    "authored_date": "2025-02-27T05:08:32.000+00:00",
+    "created_at": "2025-02-27T05:08:32.000+00:00",
+    "committed_date": "2025-02-27T05:08:32.000+00:00",
+    "message": "feat: add pagination support",
+    "stats": {
+      "additions": 84,
+      "deletions": 62,
+      "total": 69
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/commit/08000b"
+  }
+]

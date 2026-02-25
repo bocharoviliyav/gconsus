@@ -1,0 +1,602 @@
+[
+  {
+    "id": 8012,
+    "iid": 13,
+    "title": "Incorrect calculation in leaderboard",
+    "state": "opened",
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "web_url": "https://gitlab.example.com/devteam/infra-configs/-/issues/13",
+    "created_at": "2026-02-23T21:08:32.000+00:00",
+    "updated_at": "2026-02-28T21:08:32.000+00:00",
+    "labels": [
+      "performance"
+    ],
+    "references": {
+      "full": "devteam/infra-configs#13"
+    }
+  },
+  {
+    "id": 8015,
+    "iid": 16,
+    "title": "API rate limit too restrictive",
+    "state": "closed",
+    "author": {
+      "id": 2007,
+      "username": "sokolov-iv",
+      "name": "Sokolov Igor"
+    },
+    "web_url": "https://gitlab.example.com/devteam/monitoring-stack/-/issues/16",
+    "created_at": "2026-02-21T21:08:32.000+00:00",
+    "updated_at": "2026-02-27T21:08:32.000+00:00",
+    "labels": [
+      "performance"
+    ],
+    "references": {
+      "full": "devteam/monitoring-stack#16"
+    }
+  },
+  {
+    "id": 8010,
+    "iid": 11,
+    "title": "Permission check bypass for read endpoints",
+    "state": "opened",
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "web_url": "https://gitlab.example.com/devteam/monitoring-stack/-/issues/11",
+    "created_at": "2026-01-14T21:08:32.000+00:00",
+    "updated_at": "2026-01-17T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/monitoring-stack#11"
+    }
+  },
+  {
+    "id": 8005,
+    "iid": 6,
+    "title": "Charts render incorrectly on mobile",
+    "state": "opened",
+    "author": {
+      "id": 2008,
+      "username": "popova-os",
+      "name": "Popova Olga"
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/issues/6",
+    "created_at": "2026-01-06T21:08:32.000+00:00",
+    "updated_at": "2026-01-09T21:08:32.000+00:00",
+    "labels": [
+      "feature"
+    ],
+    "references": {
+      "full": "devteam/backend-core#6"
+    }
+  },
+  {
+    "id": 8027,
+    "iid": 28,
+    "title": "SSL certificate validation error",
+    "state": "closed",
+    "author": {
+      "id": 2004,
+      "username": "kuznetsova-mv",
+      "name": "Kuznetsova Maria"
+    },
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/issues/28",
+    "created_at": "2026-01-02T21:08:32.000+00:00",
+    "updated_at": "2026-01-12T21:08:32.000+00:00",
+    "labels": [
+      "performance"
+    ],
+    "references": {
+      "full": "devteam/data-pipeline#28"
+    }
+  },
+  {
+    "id": 8008,
+    "iid": 9,
+    "title": "Duplicate entries in activity log",
+    "state": "closed",
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "web_url": "https://gitlab.example.com/devteam/auth-service/-/issues/9",
+    "created_at": "2025-12-16T21:08:32.000+00:00",
+    "updated_at": "2025-12-23T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/auth-service#9"
+    }
+  },
+  {
+    "id": 8029,
+    "iid": 30,
+    "title": "Background job queue fills up",
+    "state": "closed",
+    "author": {
+      "id": 2003,
+      "username": "sidorov-ak",
+      "name": "Sidorov Alexey"
+    },
+    "web_url": "https://gitlab.example.com/devteam/auth-service/-/issues/30",
+    "created_at": "2025-11-23T21:08:32.000+00:00",
+    "updated_at": "2025-12-02T21:08:32.000+00:00",
+    "labels": [
+      "enhancement"
+    ],
+    "references": {
+      "full": "devteam/auth-service#30"
+    }
+  },
+  {
+    "id": 8016,
+    "iid": 17,
+    "title": "File upload size limit too small",
+    "state": "closed",
+    "author": {
+      "id": 2009,
+      "username": "lebedev-sv",
+      "name": "Lebedev Sergey"
+    },
+    "web_url": "https://gitlab.example.com/devteam/docs-portal/-/issues/17",
+    "created_at": "2025-11-03T21:08:32.000+00:00",
+    "updated_at": "2025-11-12T21:08:32.000+00:00",
+    "labels": [
+      "performance"
+    ],
+    "references": {
+      "full": "devteam/docs-portal#17"
+    }
+  },
+  {
+    "id": 8013,
+    "iid": 14,
+    "title": "Email notifications not sent",
+    "state": "closed",
+    "author": {
+      "id": 2006,
+      "username": "morozova-nn",
+      "name": "Morozova Natalia"
+    },
+    "web_url": "https://gitlab.example.com/devteam/infra-configs/-/issues/14",
+    "created_at": "2025-11-02T21:08:32.000+00:00",
+    "updated_at": "2025-11-09T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/infra-configs#14"
+    }
+  },
+  {
+    "id": 8006,
+    "iid": 7,
+    "title": "Export fails for large reports",
+    "state": "closed",
+    "author": {
+      "id": 2010,
+      "username": "novikova-ta",
+      "name": "Novikova Tatyana"
+    },
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/issues/7",
+    "created_at": "2025-10-18T21:08:32.000+00:00",
+    "updated_at": "2025-10-19T21:08:32.000+00:00",
+    "labels": [
+      "performance"
+    ],
+    "references": {
+      "full": "devteam/data-pipeline#7"
+    }
+  },
+  {
+    "id": 8000,
+    "iid": 1,
+    "title": "Dashboard loads slowly with large datasets",
+    "state": "closed",
+    "author": {
+      "id": 2008,
+      "username": "popova-os",
+      "name": "Popova Olga"
+    },
+    "web_url": "https://gitlab.example.com/devteam/api-gateway/-/issues/1",
+    "created_at": "2025-09-23T21:08:32.000+00:00",
+    "updated_at": "2025-09-23T21:08:32.000+00:00",
+    "labels": [
+      "performance"
+    ],
+    "references": {
+      "full": "devteam/api-gateway#1"
+    }
+  },
+  {
+    "id": 8020,
+    "iid": 21,
+    "title": "Missing index on activities table",
+    "state": "opened",
+    "author": {
+      "id": 2005,
+      "username": "volkov-ds",
+      "name": "Volkov Dmitry"
+    },
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/issues/21",
+    "created_at": "2025-09-11T21:08:32.000+00:00",
+    "updated_at": "2025-09-21T21:08:32.000+00:00",
+    "labels": [
+      "feature"
+    ],
+    "references": {
+      "full": "devteam/data-pipeline#21"
+    }
+  },
+  {
+    "id": 8024,
+    "iid": 25,
+    "title": "GraphQL query timeout on large orgs",
+    "state": "closed",
+    "author": {
+      "id": 2008,
+      "username": "popova-os",
+      "name": "Popova Olga"
+    },
+    "web_url": "https://gitlab.example.com/devteam/auth-service/-/issues/25",
+    "created_at": "2025-09-08T21:08:32.000+00:00",
+    "updated_at": "2025-09-10T21:08:32.000+00:00",
+    "labels": [
+      "documentation"
+    ],
+    "references": {
+      "full": "devteam/auth-service#25"
+    }
+  },
+  {
+    "id": 8022,
+    "iid": 23,
+    "title": "Batch import fails silently",
+    "state": "closed",
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/issues/23",
+    "created_at": "2025-08-20T21:08:32.000+00:00",
+    "updated_at": "2025-08-21T21:08:32.000+00:00",
+    "labels": [
+      "performance"
+    ],
+    "references": {
+      "full": "devteam/backend-core#23"
+    }
+  },
+  {
+    "id": 8004,
+    "iid": 5,
+    "title": "Search does not filter by team",
+    "state": "closed",
+    "author": {
+      "id": 2006,
+      "username": "morozova-nn",
+      "name": "Morozova Natalia"
+    },
+    "web_url": "https://gitlab.example.com/devteam/backend-core/-/issues/5",
+    "created_at": "2025-08-12T21:08:32.000+00:00",
+    "updated_at": "2025-08-15T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/backend-core#5"
+    }
+  },
+  {
+    "id": 8007,
+    "iid": 8,
+    "title": "Session expires too quickly",
+    "state": "opened",
+    "author": {
+      "id": 2003,
+      "username": "sidorov-ak",
+      "name": "Sidorov Alexey"
+    },
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/issues/8",
+    "created_at": "2025-08-09T21:08:32.000+00:00",
+    "updated_at": "2025-08-09T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/data-pipeline#8"
+    }
+  },
+  {
+    "id": 8002,
+    "iid": 3,
+    "title": "API returns 500 on invalid date range",
+    "state": "closed",
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "web_url": "https://gitlab.example.com/devteam/mobile-app/-/issues/3",
+    "created_at": "2025-08-08T21:08:32.000+00:00",
+    "updated_at": "2025-08-14T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/mobile-app#3"
+    }
+  },
+  {
+    "id": 8011,
+    "iid": 12,
+    "title": "Memory usage grows over time",
+    "state": "opened",
+    "author": {
+      "id": 2001,
+      "username": "petrov-pp",
+      "name": "Petrov Petr"
+    },
+    "web_url": "https://gitlab.example.com/devteam/monitoring-stack/-/issues/12",
+    "created_at": "2025-07-29T21:08:32.000+00:00",
+    "updated_at": "2025-08-01T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/monitoring-stack#12"
+    }
+  },
+  {
+    "id": 8017,
+    "iid": 18,
+    "title": "Sorting broken on repositories page",
+    "state": "closed",
+    "author": {
+      "id": 2009,
+      "username": "lebedev-sv",
+      "name": "Lebedev Sergey"
+    },
+    "web_url": "https://gitlab.example.com/devteam/auth-service/-/issues/18",
+    "created_at": "2025-07-08T21:08:32.000+00:00",
+    "updated_at": "2025-07-08T21:08:32.000+00:00",
+    "labels": [
+      "enhancement"
+    ],
+    "references": {
+      "full": "devteam/auth-service#18"
+    }
+  },
+  {
+    "id": 8018,
+    "iid": 19,
+    "title": "Timezone not respected in reports",
+    "state": "closed",
+    "author": {
+      "id": 2009,
+      "username": "lebedev-sv",
+      "name": "Lebedev Sergey"
+    },
+    "web_url": "https://gitlab.example.com/devteam/monitoring-stack/-/issues/19",
+    "created_at": "2025-07-05T21:08:32.000+00:00",
+    "updated_at": "2025-07-10T21:08:32.000+00:00",
+    "labels": [
+      "enhancement"
+    ],
+    "references": {
+      "full": "devteam/monitoring-stack#19"
+    }
+  },
+  {
+    "id": 8001,
+    "iid": 2,
+    "title": "Users cannot reset password",
+    "state": "closed",
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "web_url": "https://gitlab.example.com/devteam/api-gateway/-/issues/2",
+    "created_at": "2025-07-03T21:08:32.000+00:00",
+    "updated_at": "2025-07-13T21:08:32.000+00:00",
+    "labels": [
+      "performance"
+    ],
+    "references": {
+      "full": "devteam/api-gateway#2"
+    }
+  },
+  {
+    "id": 8025,
+    "iid": 26,
+    "title": "LDAP sync misses new users",
+    "state": "closed",
+    "author": {
+      "id": 2010,
+      "username": "novikova-ta",
+      "name": "Novikova Tatyana"
+    },
+    "web_url": "https://gitlab.example.com/devteam/api-gateway/-/issues/26",
+    "created_at": "2025-05-27T21:08:32.000+00:00",
+    "updated_at": "2025-06-06T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/api-gateway#26"
+    }
+  },
+  {
+    "id": 8014,
+    "iid": 15,
+    "title": "Dark mode colors not applied correctly",
+    "state": "closed",
+    "author": {
+      "id": 2004,
+      "username": "kuznetsova-mv",
+      "name": "Kuznetsova Maria"
+    },
+    "web_url": "https://gitlab.example.com/devteam/docs-portal/-/issues/15",
+    "created_at": "2025-05-16T21:08:32.000+00:00",
+    "updated_at": "2025-05-26T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/docs-portal#15"
+    }
+  },
+  {
+    "id": 8019,
+    "iid": 20,
+    "title": "Cache invalidation not working",
+    "state": "closed",
+    "author": {
+      "id": 2004,
+      "username": "kuznetsova-mv",
+      "name": "Kuznetsova Maria"
+    },
+    "web_url": "https://gitlab.example.com/devteam/auth-service/-/issues/20",
+    "created_at": "2025-05-02T21:08:32.000+00:00",
+    "updated_at": "2025-05-12T21:08:32.000+00:00",
+    "labels": [
+      "enhancement"
+    ],
+    "references": {
+      "full": "devteam/auth-service#20"
+    }
+  },
+  {
+    "id": 8009,
+    "iid": 10,
+    "title": "Webhook delivery fails intermittently",
+    "state": "closed",
+    "author": {
+      "id": 2002,
+      "username": "ivanova-ea",
+      "name": "Ivanova Elena"
+    },
+    "web_url": "https://gitlab.example.com/devteam/monitoring-stack/-/issues/10",
+    "created_at": "2025-04-26T21:08:32.000+00:00",
+    "updated_at": "2025-04-27T21:08:32.000+00:00",
+    "labels": [
+      "bug"
+    ],
+    "references": {
+      "full": "devteam/monitoring-stack#10"
+    }
+  },
+  {
+    "id": 8026,
+    "iid": 27,
+    "title": "Metric aggregation off by one day",
+    "state": "closed",
+    "author": {
+      "id": 2007,
+      "username": "sokolov-iv",
+      "name": "Sokolov Igor"
+    },
+    "web_url": "https://gitlab.example.com/devteam/monitoring-stack/-/issues/27",
+    "created_at": "2025-04-25T21:08:32.000+00:00",
+    "updated_at": "2025-04-29T21:08:32.000+00:00",
+    "labels": [
+      "performance"
+    ],
+    "references": {
+      "full": "devteam/monitoring-stack#27"
+    }
+  },
+  {
+    "id": 8028,
+    "iid": 29,
+    "title": "Pagination returns duplicate items",
+    "state": "closed",
+    "author": {
+      "id": 2005,
+      "username": "volkov-ds",
+      "name": "Volkov Dmitry"
+    },
+    "web_url": "https://gitlab.example.com/devteam/mobile-app/-/issues/29",
+    "created_at": "2025-04-22T21:08:32.000+00:00",
+    "updated_at": "2025-05-01T21:08:32.000+00:00",
+    "labels": [
+      "feature"
+    ],
+    "references": {
+      "full": "devteam/mobile-app#29"
+    }
+  },
+  {
+    "id": 8021,
+    "iid": 22,
+    "title": "Login page shows blank after redirect",
+    "state": "opened",
+    "author": {
+      "id": 2004,
+      "username": "kuznetsova-mv",
+      "name": "Kuznetsova Maria"
+    },
+    "web_url": "https://gitlab.example.com/devteam/infra-configs/-/issues/22",
+    "created_at": "2025-04-06T21:08:32.000+00:00",
+    "updated_at": "2025-04-16T21:08:32.000+00:00",
+    "labels": [
+      "feature"
+    ],
+    "references": {
+      "full": "devteam/infra-configs#22"
+    }
+  },
+  {
+    "id": 8003,
+    "iid": 4,
+    "title": "Missing translations for settings page",
+    "state": "opened",
+    "author": {
+      "id": 2005,
+      "username": "volkov-ds",
+      "name": "Volkov Dmitry"
+    },
+    "web_url": "https://gitlab.example.com/devteam/data-pipeline/-/issues/4",
+    "created_at": "2025-04-05T21:08:32.000+00:00",
+    "updated_at": "2025-04-12T21:08:32.000+00:00",
+    "labels": [
+      "documentation"
+    ],
+    "references": {
+      "full": "devteam/data-pipeline#4"
+    }
+  },
+  {
+    "id": 8023,
+    "iid": 24,
+    "title": "Incorrect user count on team page",
+    "state": "closed",
+    "author": {
+      "id": 2007,
+      "username": "sokolov-iv",
+      "name": "Sokolov Igor"
+    },
+    "web_url": "https://gitlab.example.com/devteam/frontend-app/-/issues/24",
+    "created_at": "2025-03-01T21:08:32.000+00:00",
+    "updated_at": "2025-03-05T21:08:32.000+00:00",
+    "labels": [
+      "documentation"
+    ],
+    "references": {
+      "full": "devteam/frontend-app#24"
+    }
+  }
+]

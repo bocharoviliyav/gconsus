@@ -1,0 +1,2203 @@
+{
+  "data": {
+    "user": {
+      "contributionsCollection": {
+        "totalCommitContributions": 1246,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "name": "user-service",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-08-30T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-09-11T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2025-09-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-09-26T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2025-09-27T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-10-04T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-10-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-10-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-10-30T00:00:00Z"
+                },
+                {
+                  "commitCount": 6,
+                  "occurredAt": "2025-11-28T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-11-29T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-11-30T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-12-16T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-12-19T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-12-27T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-12-29T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-12-30T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2026-01-16T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2026-01-29T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2026-01-31T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2026-02-01T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-02-01T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2026-02-16T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-02-18T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2026-02-23T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "api-gateway",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-09-01T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-09-03T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-09-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-09-15T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-09-17T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-10-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-10-11T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-10-29T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-10-31T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-11-19T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-11-20T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-11-22T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-11-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-11-24T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-12-12T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-12-17T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-12-18T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-12-24T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-12-27T00:00:00Z"
+                },
+                {
+                  "commitCount": 6,
+                  "occurredAt": "2026-01-02T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2026-01-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2026-02-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2026-02-07T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "frontend-app",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-09-02T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-09-10T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-09-28T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-09-28T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-10-02T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-10-04T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2025-10-21T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-10-30T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-11-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 6,
+                  "occurredAt": "2025-11-14T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2025-11-15T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-11-24T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-12-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-12-19T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2025-12-19T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-12-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2026-01-15T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-01-16T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2026-01-20T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2026-02-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 6,
+                  "occurredAt": "2026-02-10T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-02-12T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2026-02-16T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "order-service",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-09-03T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-09-13T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-09-25T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-10-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-10-09T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-10-10T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2025-10-12T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-10-18T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-10-31T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-11-05T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-11-18T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-11-21T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-11-24T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-12-04T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-12-10T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-12-19T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-12-25T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2026-01-05T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2026-01-10T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2026-01-26T00:00:00Z"
+                },
+                {
+                  "commitCount": 6,
+                  "occurredAt": "2026-01-27T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2026-01-28T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2026-02-20T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2026-02-24T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "product-catalog",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-09-01T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-09-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-10-02T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-10-09T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-10-11T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-10-12T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2025-10-15T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-10-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-10-26T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-11-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-11-21T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-12-07T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2026-01-13T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2026-01-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-02-03T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "notification-service",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-09-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-09-16T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-09-27T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-10-01T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-10-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-10-26T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-10-26T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-10-28T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-11-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 6,
+                  "occurredAt": "2025-11-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-12-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2025-12-26T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-12-28T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2026-01-01T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2026-01-07T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2026-01-22T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-01-31T00:00:00Z"
+                },
+                {
+                  "commitCount": 6,
+                  "occurredAt": "2026-02-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2026-02-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-02-16T00:00:00Z"
+                },
+                {
+                  "commitCount": 6,
+                  "occurredAt": "2026-02-19T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2026-02-23T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "payment-gateway",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-09-10T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-09-11T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2025-11-02T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-11-03T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-11-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-11-13T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-11-30T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-12-15T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-12-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2025-12-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-12-26T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2026-01-07T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2026-01-30T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2026-01-30T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2026-02-21T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "auth-module",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-09-29T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-10-05T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-10-09T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2025-10-12T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-10-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-10-23T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-10-25T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-10-31T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-11-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-11-17T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2025-11-19T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-12-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-12-31T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2026-01-01T00:00:00Z"
+                },
+                {
+                  "commitCount": 3,
+                  "occurredAt": "2026-01-07T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2026-02-09T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2026-02-12T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "admin-panel",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-09-05T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2025-09-09T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-09-12T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-09-25T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-09-29T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-10-02T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-10-03T00:00:00Z"
+                },
+                {
+                  "commitCount": 1,
+                  "occurredAt": "2025-10-17T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-11-13T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2025-12-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-12-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-12-19T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2026-01-03T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-01-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 7,
+                  "occurredAt": "2026-01-22T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2026-02-04T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2026-02-14T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "report-engine",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2025-09-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2025-09-10T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2025-09-18T00:00:00Z"
+                },
+                {
+                  "commitCount": 11,
+                  "occurredAt": "2025-10-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-10-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2025-10-08T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2025-10-10T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-10-18T00:00:00Z"
+                },
+                {
+                  "commitCount": 4,
+                  "occurredAt": "2025-11-22T00:00:00Z"
+                },
+                {
+                  "commitCount": 8,
+                  "occurredAt": "2025-12-06T00:00:00Z"
+                },
+                {
+                  "commitCount": 12,
+                  "occurredAt": "2025-12-09T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2026-01-15T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-01-21T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2026-01-22T00:00:00Z"
+                },
+                {
+                  "commitCount": 5,
+                  "occurredAt": "2026-01-26T00:00:00Z"
+                },
+                {
+                  "commitCount": 10,
+                  "occurredAt": "2026-01-30T00:00:00Z"
+                },
+                {
+                  "commitCount": 6,
+                  "occurredAt": "2026-02-07T00:00:00Z"
+                },
+                {
+                  "commitCount": 2,
+                  "occurredAt": "2026-02-22T00:00:00Z"
+                },
+                {
+                  "commitCount": 9,
+                  "occurredAt": "2026-02-22T00:00:00Z"
+                }
+              ]
+            }
+          }
+        ],
+        "totalPullRequestContributions": 60,
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "name": "frontend-app",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "title": "feat: metrics endpoint",
+                    "url": "https://github.example.com/platform/frontend-app/pull/95",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-01T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: session handling",
+                    "url": "https://github.example.com/platform/frontend-app/pull/54",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-11T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: dashboard widgets",
+                    "url": "https://github.example.com/platform/frontend-app/pull/76",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-13T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: timezone bug",
+                    "url": "https://github.example.com/platform/frontend-app/pull/75",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-19T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: notifications",
+                    "url": "https://github.example.com/platform/frontend-app/pull/48",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-11-22T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "refactor: error handling",
+                    "url": "https://github.example.com/platform/frontend-app/pull/41",
+                    "merged": false
+                  },
+                  "occurredAt": "2026-01-02T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "notification-service",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "title": "feat: dark mode",
+                    "url": "https://github.example.com/platform/notification-service/pull/63",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-09-04T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: search API",
+                    "url": "https://github.example.com/platform/notification-service/pull/79",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-09-05T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: timezone bug",
+                    "url": "https://github.example.com/platform/notification-service/pull/51",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-09-07T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: file upload",
+                    "url": "https://github.example.com/platform/notification-service/pull/74",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-10-06T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: encoding issue",
+                    "url": "https://github.example.com/platform/notification-service/pull/67",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-10-17T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "refactor: error handling",
+                    "url": "https://github.example.com/platform/notification-service/pull/62",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-12-15T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: timezone bug",
+                    "url": "https://github.example.com/platform/notification-service/pull/42",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-12-19T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: rate limiting",
+                    "url": "https://github.example.com/platform/notification-service/pull/60",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-12-28T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: dashboard widgets",
+                    "url": "https://github.example.com/platform/notification-service/pull/72",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-24T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "admin-panel",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "title": "feat: health checks",
+                    "url": "https://github.example.com/platform/admin-panel/pull/70",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-09-02T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: notifications",
+                    "url": "https://github.example.com/platform/admin-panel/pull/92",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-03T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: retry logic",
+                    "url": "https://github.example.com/platform/admin-panel/pull/77",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-12-13T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: search API",
+                    "url": "https://github.example.com/platform/admin-panel/pull/90",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-12-23T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: pagination",
+                    "url": "https://github.example.com/platform/admin-panel/pull/64",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-26T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: export reports",
+                    "url": "https://github.example.com/platform/admin-panel/pull/43",
+                    "merged": false
+                  },
+                  "occurredAt": "2026-02-11T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "api-gateway",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "title": "feat: rate limiting",
+                    "url": "https://github.example.com/platform/api-gateway/pull/81",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-09-15T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: search API",
+                    "url": "https://github.example.com/platform/api-gateway/pull/91",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-10-29T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: audit logging",
+                    "url": "https://github.example.com/platform/api-gateway/pull/52",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-12T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: memory leak",
+                    "url": "https://github.example.com/platform/api-gateway/pull/100",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-11-18T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: dark mode",
+                    "url": "https://github.example.com/platform/api-gateway/pull/44",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-12-16T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: file upload",
+                    "url": "https://github.example.com/platform/api-gateway/pull/68",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-07T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "user-service",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "title": "fix: resolve auth error",
+                    "url": "https://github.example.com/platform/user-service/pull/84",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-10-26T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: SSO integration",
+                    "url": "https://github.example.com/platform/user-service/pull/66",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-28T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: webhook support",
+                    "url": "https://github.example.com/platform/user-service/pull/55",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-12-01T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: add caching layer",
+                    "url": "https://github.example.com/platform/user-service/pull/45",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-22T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: broken tests",
+                    "url": "https://github.example.com/platform/user-service/pull/88",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-28T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: rate limiting",
+                    "url": "https://github.example.com/platform/user-service/pull/50",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-02-14T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "product-catalog",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "title": "feat: compression",
+                    "url": "https://github.example.com/platform/product-catalog/pull/96",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-09-14T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: webhook support",
+                    "url": "https://github.example.com/platform/product-catalog/pull/46",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-10-06T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: compression",
+                    "url": "https://github.example.com/platform/product-catalog/pull/97",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-10-23T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: concurrent access",
+                    "url": "https://github.example.com/platform/product-catalog/pull/73",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-12T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: webhook support",
+                    "url": "https://github.example.com/platform/product-catalog/pull/65",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-12-19T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: batch processing",
+                    "url": "https://github.example.com/platform/product-catalog/pull/83",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-18T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: webhook support",
+                    "url": "https://github.example.com/platform/product-catalog/pull/57",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-28T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: resolve auth error",
+                    "url": "https://github.example.com/platform/product-catalog/pull/69",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-02-24T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "payment-gateway",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "title": "feat: batch processing",
+                    "url": "https://github.example.com/platform/payment-gateway/pull/89",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-08-30T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: API versioning",
+                    "url": "https://github.example.com/platform/payment-gateway/pull/58",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-10-27T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: retry logic",
+                    "url": "https://github.example.com/platform/payment-gateway/pull/94",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-02T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: session handling",
+                    "url": "https://github.example.com/platform/payment-gateway/pull/56",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-12-23T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: broken tests",
+                    "url": "https://github.example.com/platform/payment-gateway/pull/86",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-06T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: export reports",
+                    "url": "https://github.example.com/platform/payment-gateway/pull/87",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-18T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: notifications",
+                    "url": "https://github.example.com/platform/payment-gateway/pull/47",
+                    "merged": false
+                  },
+                  "occurredAt": "2026-02-05T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "report-engine",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "title": "feat: retry logic",
+                    "url": "https://github.example.com/platform/report-engine/pull/93",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-10-18T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: API versioning",
+                    "url": "https://github.example.com/platform/report-engine/pull/85",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-10-31T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: metrics endpoint",
+                    "url": "https://github.example.com/platform/report-engine/pull/53",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-12-26T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: pagination",
+                    "url": "https://github.example.com/platform/report-engine/pull/82",
+                    "merged": false
+                  },
+                  "occurredAt": "2025-12-26T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: notifications",
+                    "url": "https://github.example.com/platform/report-engine/pull/49",
+                    "merged": false
+                  },
+                  "occurredAt": "2026-01-23T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "order-service",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "title": "feat: audit logging",
+                    "url": "https://github.example.com/platform/order-service/pull/71",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-09-07T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: encoding issue",
+                    "url": "https://github.example.com/platform/order-service/pull/78",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-09-22T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "refactor: error handling",
+                    "url": "https://github.example.com/platform/order-service/pull/99",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-10-09T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: timezone bug",
+                    "url": "https://github.example.com/platform/order-service/pull/59",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-10-30T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "feat: add caching layer",
+                    "url": "https://github.example.com/platform/order-service/pull/61",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-11-14T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "refactor: error handling",
+                    "url": "https://github.example.com/platform/order-service/pull/98",
+                    "merged": true
+                  },
+                  "occurredAt": "2025-12-13T00:00:00Z"
+                },
+                {
+                  "pullRequest": {
+                    "title": "fix: concurrent access",
+                    "url": "https://github.example.com/platform/order-service/pull/80",
+                    "merged": true
+                  },
+                  "occurredAt": "2026-01-12T00:00:00Z"
+                }
+              ]
+            }
+          }
+        ],
+        "totalIssueContributions": 30,
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "name": "frontend-app",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "issue": {
+                    "title": "Document API endpoints",
+                    "url": "https://github.example.com/platform/frontend-app/issues/200",
+                    "state": "OPEN"
+                  },
+                  "occurredAt": "2025-11-10T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "payment-gateway",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "issue": {
+                    "title": "Fix log rotation",
+                    "url": "https://github.example.com/platform/payment-gateway/issues/208",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-09-04T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Fix date parsing",
+                    "url": "https://github.example.com/platform/payment-gateway/issues/205",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-10-08T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Fix log rotation",
+                    "url": "https://github.example.com/platform/payment-gateway/issues/201",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-10-28T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Missing error message",
+                    "url": "https://github.example.com/platform/payment-gateway/issues/202",
+                    "state": "OPEN"
+                  },
+                  "occurredAt": "2025-11-09T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Slow query on dashboard",
+                    "url": "https://github.example.com/platform/payment-gateway/issues/203",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-11-19T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Add graceful shutdown",
+                    "url": "https://github.example.com/platform/payment-gateway/issues/215",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-12-22T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Implement retry backoff",
+                    "url": "https://github.example.com/platform/payment-gateway/issues/225",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2026-01-05T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Fix flaky test",
+                    "url": "https://github.example.com/platform/payment-gateway/issues/212",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2026-01-09T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Add request timeout",
+                    "url": "https://github.example.com/platform/payment-gateway/issues/209",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2026-01-23T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "auth-module",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "issue": {
+                    "title": "Slow query on dashboard",
+                    "url": "https://github.example.com/platform/auth-module/issues/204",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-12-10T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "report-engine",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "issue": {
+                    "title": "Slow query on dashboard",
+                    "url": "https://github.example.com/platform/report-engine/issues/211",
+                    "state": "OPEN"
+                  },
+                  "occurredAt": "2025-09-13T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Slow query on dashboard",
+                    "url": "https://github.example.com/platform/report-engine/issues/210",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-09-26T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Upgrade Go version",
+                    "url": "https://github.example.com/platform/report-engine/issues/223",
+                    "state": "OPEN"
+                  },
+                  "occurredAt": "2025-12-07T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Reduce Docker image size",
+                    "url": "https://github.example.com/platform/report-engine/issues/206",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-12-30T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "product-catalog",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "issue": {
+                    "title": "Add health probes",
+                    "url": "https://github.example.com/platform/product-catalog/issues/222",
+                    "state": "OPEN"
+                  },
+                  "occurredAt": "2025-09-22T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Upgrade Go version",
+                    "url": "https://github.example.com/platform/product-catalog/issues/227",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2026-02-14T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Fix date parsing",
+                    "url": "https://github.example.com/platform/product-catalog/issues/207",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2026-02-17T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "user-service",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "issue": {
+                    "title": "Add health probes",
+                    "url": "https://github.example.com/platform/user-service/issues/217",
+                    "state": "OPEN"
+                  },
+                  "occurredAt": "2025-09-11T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Add graceful shutdown",
+                    "url": "https://github.example.com/platform/user-service/issues/213",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-12-03T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "order-service",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "issue": {
+                    "title": "Fix flaky test",
+                    "url": "https://github.example.com/platform/order-service/issues/220",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-09-06T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Add request tracing",
+                    "url": "https://github.example.com/platform/order-service/issues/214",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-11-30T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Slow query on dashboard",
+                    "url": "https://github.example.com/platform/order-service/issues/219",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2026-01-16T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "api-gateway",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "issue": {
+                    "title": "Document API endpoints",
+                    "url": "https://github.example.com/platform/api-gateway/issues/221",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-08-29T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Reduce Docker image size",
+                    "url": "https://github.example.com/platform/api-gateway/issues/226",
+                    "state": "OPEN"
+                  },
+                  "occurredAt": "2025-08-30T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Slow query on dashboard",
+                    "url": "https://github.example.com/platform/api-gateway/issues/224",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-09-30T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Slow query on dashboard",
+                    "url": "https://github.example.com/platform/api-gateway/issues/216",
+                    "state": "OPEN"
+                  },
+                  "occurredAt": "2025-10-09T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Missing error message",
+                    "url": "https://github.example.com/platform/api-gateway/issues/229",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-11-29T00:00:00Z"
+                },
+                {
+                  "issue": {
+                    "title": "Missing error message",
+                    "url": "https://github.example.com/platform/api-gateway/issues/218",
+                    "state": "OPEN"
+                  },
+                  "occurredAt": "2025-12-23T00:00:00Z"
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "name": "notification-service",
+              "owner": {
+                "login": "platform"
+              }
+            },
+            "contributions": {
+              "nodes": [
+                {
+                  "issue": {
+                    "title": "Fix date parsing",
+                    "url": "https://github.example.com/platform/notification-service/issues/228",
+                    "state": "CLOSED"
+                  },
+                  "occurredAt": "2025-11-22T00:00:00Z"
+                }
+              ]
+            }
+          }
+        ],
+        "totalPullRequestReviewContributions": 25,
+        "pullRequestReviewContributions": {
+          "nodes": [
+            {
+              "pullRequest": {
+                "title": "fix: timezone bug",
+                "url": "https://github.example.com/platform/product-catalog/pull/86",
+                "repository": {
+                  "name": "product-catalog",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-08-29T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: notifications",
+                "url": "https://github.example.com/platform/auth-module/pull/40",
+                "repository": {
+                  "name": "auth-module",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-09-01T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: file upload",
+                "url": "https://github.example.com/platform/api-gateway/pull/78",
+                "repository": {
+                  "name": "api-gateway",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-09-01T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "fix: concurrent access",
+                "url": "https://github.example.com/platform/auth-module/pull/88",
+                "repository": {
+                  "name": "auth-module",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-09-06T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: file upload",
+                "url": "https://github.example.com/platform/frontend-app/pull/76",
+                "repository": {
+                  "name": "frontend-app",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-09-11T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: metrics endpoint",
+                "url": "https://github.example.com/platform/api-gateway/pull/56",
+                "repository": {
+                  "name": "api-gateway",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-09-15T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: health checks",
+                "url": "https://github.example.com/platform/report-engine/pull/70",
+                "repository": {
+                  "name": "report-engine",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-10-06T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: health checks",
+                "url": "https://github.example.com/platform/admin-panel/pull/64",
+                "repository": {
+                  "name": "admin-panel",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-10-07T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: notifications",
+                "url": "https://github.example.com/platform/product-catalog/pull/11",
+                "repository": {
+                  "name": "product-catalog",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-10-15T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: health checks",
+                "url": "https://github.example.com/platform/payment-gateway/pull/13",
+                "repository": {
+                  "name": "payment-gateway",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-10-21T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: API versioning",
+                "url": "https://github.example.com/platform/user-service/pull/63",
+                "repository": {
+                  "name": "user-service",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-10-22T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "fix: concurrent access",
+                "url": "https://github.example.com/platform/product-catalog/pull/78",
+                "repository": {
+                  "name": "product-catalog",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-10-24T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: health checks",
+                "url": "https://github.example.com/platform/notification-service/pull/99",
+                "repository": {
+                  "name": "notification-service",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-10-31T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "fix: encoding issue",
+                "url": "https://github.example.com/platform/auth-module/pull/72",
+                "repository": {
+                  "name": "auth-module",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-11-02T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: file upload",
+                "url": "https://github.example.com/platform/auth-module/pull/29",
+                "repository": {
+                  "name": "auth-module",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-11-05T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "fix: session handling",
+                "url": "https://github.example.com/platform/order-service/pull/40",
+                "repository": {
+                  "name": "order-service",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-11-12T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: add caching layer",
+                "url": "https://github.example.com/platform/notification-service/pull/43",
+                "repository": {
+                  "name": "notification-service",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-11-29T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: file upload",
+                "url": "https://github.example.com/platform/api-gateway/pull/34",
+                "repository": {
+                  "name": "api-gateway",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-12-06T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: file upload",
+                "url": "https://github.example.com/platform/payment-gateway/pull/41",
+                "repository": {
+                  "name": "payment-gateway",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-12-08T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: metrics endpoint",
+                "url": "https://github.example.com/platform/auth-module/pull/85",
+                "repository": {
+                  "name": "auth-module",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-12-18T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "fix: timezone bug",
+                "url": "https://github.example.com/platform/product-catalog/pull/67",
+                "repository": {
+                  "name": "product-catalog",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-12-24T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "fix: timezone bug",
+                "url": "https://github.example.com/platform/product-catalog/pull/42",
+                "repository": {
+                  "name": "product-catalog",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-12-27T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "fix: session handling",
+                "url": "https://github.example.com/platform/user-service/pull/47",
+                "repository": {
+                  "name": "user-service",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2025-12-30T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "fix: resolve auth error",
+                "url": "https://github.example.com/platform/notification-service/pull/72",
+                "repository": {
+                  "name": "notification-service",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2026-01-01T00:00:00Z"
+            },
+            {
+              "pullRequest": {
+                "title": "feat: API versioning",
+                "url": "https://github.example.com/platform/notification-service/pull/41",
+                "repository": {
+                  "name": "notification-service",
+                  "owner": {
+                    "login": "platform"
+                  }
+                }
+              },
+              "occurredAt": "2026-02-02T00:00:00Z"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

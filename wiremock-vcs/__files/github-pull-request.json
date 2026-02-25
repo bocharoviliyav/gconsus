@@ -1,0 +1,10 @@
+{
+  "number": 42,
+  "title": "feat: add request caching",
+  "html_url": "https://github.example.com/platform/user-service/pull/42",
+  "merged": true,
+  "additions": 234,
+  "deletions": 56,
+  "changed_files": 8,
+  "created_at": "2025-02-15T10:00:00Z"
+}

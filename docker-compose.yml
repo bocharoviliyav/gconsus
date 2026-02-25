@@ -1,0 +1,160 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: gconsus-db
+    environment:
+      POSTGRES_DB: git_analytics
+      POSTGRES_USER: git_analytics
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-changeme123}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./migrations:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U git_analytics"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - gconsus-network
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:23.0
+    container_name: gconsus-keycloak
+    command:
+      - start-dev
+      - --import-realm
+    environment:
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://postgres:5432/git_analytics
+      KC_DB_USERNAME: git_analytics
+      KC_DB_PASSWORD: ${DB_PASSWORD:-changeme123}
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-admin123}
+      KC_HEALTH_ENABLED: true
+      KC_METRICS_ENABLED: true
+      KC_HOSTNAME_URL: ${KEYCLOAK_URL:-http://localhost:8090}
+      KC_HOSTNAME_ADMIN_URL: ${KEYCLOAK_ADMIN_URL:-http://localhost:8090}
+    volumes:
+      - keycloak_data:/opt/keycloak/data
+      - ./keycloak/realm-export.json:/opt/keycloak/data/import/realm-export.json:ro
+    ports:
+      - "8090:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "exec 3<>/dev/tcp/localhost/8080 && echo -e 'GET /health/ready HTTP/1.1\\r\\nHost: localhost\\r\\nConnection: close\\r\\n\\r\\n' >&3 && timeout 3 cat <&3 | head -1 | grep -q '200 OK'"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - gconsus-network
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: gconsus-backend
+    environment:
+      # Database
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: git_analytics
+      DB_USER: git_analytics
+      DB_PASSWORD: ${DB_PASSWORD:-changeme123}
+      DB_SSLMODE: disable
+      DB_MAX_OPEN_CONNS: 25
+      DB_MAX_IDLE_CONNS: 5
+
+
+      # Keycloak
+      KEYCLOAK_URL: http://keycloak:8080
+      KEYCLOAK_REALM: ${KEYCLOAK_REALM:-gconsus}
+      KEYCLOAK_CLIENT_ID: ${KEYCLOAK_CLIENT_ID:-gconsus-backend}
+      KEYCLOAK_CLIENT_SECRET: ${KEYCLOAK_CLIENT_SECRET:-}
+
+      # External Employee API
+      EMPLOYEE_API_URL: ${EMPLOYEE_API_URL:-}
+      EMPLOYEE_API_TOKEN: ${EMPLOYEE_API_TOKEN:-}
+
+      # ML connector (disabled by default)
+      ML_ENABLED: ${ML_ENABLED:-false}
+      ML_ENDPOINT: ${ML_ENDPOINT:-http://localhost:8501}
+
+      # Application
+      SERVER_PORT: 8000
+      DEBUG_LOGGING: ${DEBUG_LOGGING:-false}
+
+      # Scheduler
+      ENABLE_SCHEDULER: ${ENABLE_SCHEDULER:-true}
+
+      # CORS
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      wiremock-vcs:
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    restart: unless-stopped
+    networks:
+      - gconsus-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-/api/v1}
+        VITE_KEYCLOAK_URL: ${VITE_KEYCLOAK_URL:-http://localhost:8090}
+        VITE_KEYCLOAK_REALM: ${VITE_KEYCLOAK_REALM:-gconsus}
+        VITE_KEYCLOAK_CLIENT_ID: ${VITE_KEYCLOAK_CLIENT_ID:-gconsus-frontend}
+    container_name: gconsus-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:80/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+    networks:
+      - gconsus-network
+
+  # WireMock VCS -- mocks real GitHub REST/GraphQL and GitLab API v4
+  wiremock-vcs:
+    image: wiremock/wiremock:latest
+    container_name: gconsus-wiremock-vcs
+    ports:
+      - "9090:8080"
+    volumes:
+      - ./wiremock-vcs/mappings:/home/wiremock/mappings
+      - ./wiremock-vcs/__files:/home/wiremock/__files
+    command:
+      - --global-response-templating
+      - --verbose
+    networks:
+      - gconsus-network
+
+networks:
+  gconsus-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local
+  keycloak_data:
+    driver: local

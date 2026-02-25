@@ -1,0 +1,82 @@
+[
+  {
+    "id": 2001,
+    "username": "petrov-pp",
+    "name": "Petrov Petr",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2001/avatar.png",
+    "web_url": "https://gitlab.example.com/petrov-pp"
+  },
+  {
+    "id": 2002,
+    "username": "ivanova-ea",
+    "name": "Ivanova Elena",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2002/avatar.png",
+    "web_url": "https://gitlab.example.com/ivanova-ea"
+  },
+  {
+    "id": 2003,
+    "username": "sidorov-ak",
+    "name": "Sidorov Alexey",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2003/avatar.png",
+    "web_url": "https://gitlab.example.com/sidorov-ak"
+  },
+  {
+    "id": 2004,
+    "username": "kuznetsova-mv",
+    "name": "Kuznetsova Maria",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2004/avatar.png",
+    "web_url": "https://gitlab.example.com/kuznetsova-mv"
+  },
+  {
+    "id": 2005,
+    "username": "volkov-ds",
+    "name": "Volkov Dmitry",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2005/avatar.png",
+    "web_url": "https://gitlab.example.com/volkov-ds"
+  },
+  {
+    "id": 2006,
+    "username": "morozova-nn",
+    "name": "Morozova Natalia",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2006/avatar.png",
+    "web_url": "https://gitlab.example.com/morozova-nn"
+  },
+  {
+    "id": 2007,
+    "username": "sokolov-iv",
+    "name": "Sokolov Igor",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2007/avatar.png",
+    "web_url": "https://gitlab.example.com/sokolov-iv"
+  },
+  {
+    "id": 2008,
+    "username": "popova-os",
+    "name": "Popova Olga",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2008/avatar.png",
+    "web_url": "https://gitlab.example.com/popova-os"
+  },
+  {
+    "id": 2009,
+    "username": "lebedev-sv",
+    "name": "Lebedev Sergey",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2009/avatar.png",
+    "web_url": "https://gitlab.example.com/lebedev-sv"
+  },
+  {
+    "id": 2010,
+    "username": "novikova-ta",
+    "name": "Novikova Tatyana",
+    "state": "active",
+    "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/2010/avatar.png",
+    "web_url": "https://gitlab.example.com/novikova-ta"
+  }
+]

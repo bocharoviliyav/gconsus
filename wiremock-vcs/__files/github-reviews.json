@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "login": "petrov-pp"
+    },
+    "state": "APPROVED",
+    "submitted_at": "2025-02-15T14:00:00Z"
+  },
+  {
+    "id": 2,
+    "user": {
+      "login": "sidorov-ak"
+    },
+    "state": "COMMENTED",
+    "submitted_at": "2025-02-15T15:30:00Z"
+  },
+  {
+    "id": 3,
+    "user": {
+      "login": "volkov-ds"
+    },
+    "state": "CHANGES_REQUESTED",
+    "submitted_at": "2025-02-16T09:00:00Z"
+  }
+]

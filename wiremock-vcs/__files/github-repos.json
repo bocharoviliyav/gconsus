@@ -1,0 +1,262 @@
+[
+  {
+    "name": "user-service",
+    "html_url": "https://github.example.com/platform/user-service",
+    "description": "Service: user-service",
+    "language": "Go",
+    "stargazers_count": 23,
+    "forks_count": 7,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "api-gateway",
+    "html_url": "https://github.example.com/platform/api-gateway",
+    "description": "Service: api-gateway",
+    "language": "Go",
+    "stargazers_count": 17,
+    "forks_count": 4,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "frontend-app",
+    "html_url": "https://github.example.com/platform/frontend-app",
+    "description": "Service: frontend-app",
+    "language": "TypeScript",
+    "stargazers_count": 24,
+    "forks_count": 6,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "order-service",
+    "html_url": "https://github.example.com/platform/order-service",
+    "description": "Service: order-service",
+    "language": "Go",
+    "stargazers_count": 23,
+    "forks_count": 3,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "product-catalog",
+    "html_url": "https://github.example.com/platform/product-catalog",
+    "description": "Service: product-catalog",
+    "language": "Java",
+    "stargazers_count": 17,
+    "forks_count": 4,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "notification-service",
+    "html_url": "https://github.example.com/platform/notification-service",
+    "description": "Service: notification-service",
+    "language": "Python",
+    "stargazers_count": 15,
+    "forks_count": 0,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "payment-gateway",
+    "html_url": "https://github.example.com/platform/payment-gateway",
+    "description": "Service: payment-gateway",
+    "language": "Go",
+    "stargazers_count": 9,
+    "forks_count": 5,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "auth-module",
+    "html_url": "https://github.example.com/platform/auth-module",
+    "description": "Service: auth-module",
+    "language": "Go",
+    "stargazers_count": 19,
+    "forks_count": 0,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "admin-panel",
+    "html_url": "https://github.example.com/platform/admin-panel",
+    "description": "Service: admin-panel",
+    "language": "TypeScript",
+    "stargazers_count": 18,
+    "forks_count": 5,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "report-engine",
+    "html_url": "https://github.example.com/platform/report-engine",
+    "description": "Service: report-engine",
+    "language": "Python",
+    "stargazers_count": 6,
+    "forks_count": 7,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "inventory-service",
+    "html_url": "https://github.example.com/platform/inventory-service",
+    "description": "Service: inventory-service",
+    "language": "Go",
+    "stargazers_count": 9,
+    "forks_count": 4,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "shipping-tracker",
+    "html_url": "https://github.example.com/platform/shipping-tracker",
+    "description": "Service: shipping-tracker",
+    "language": "Go",
+    "stargazers_count": 24,
+    "forks_count": 3,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "chat-backend",
+    "html_url": "https://github.example.com/platform/chat-backend",
+    "description": "Service: chat-backend",
+    "language": "TypeScript",
+    "stargazers_count": 18,
+    "forks_count": 8,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "media-storage",
+    "html_url": "https://github.example.com/platform/media-storage",
+    "description": "Service: media-storage",
+    "language": "Go",
+    "stargazers_count": 22,
+    "forks_count": 2,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "ml-pipeline",
+    "html_url": "https://github.example.com/platform/ml-pipeline",
+    "description": "Service: ml-pipeline",
+    "language": "Python",
+    "stargazers_count": 16,
+    "forks_count": 3,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "devops-tools",
+    "html_url": "https://github.example.com/platform/devops-tools",
+    "description": "Service: devops-tools",
+    "language": "Shell",
+    "stargazers_count": 17,
+    "forks_count": 6,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "terraform-modules",
+    "html_url": "https://github.example.com/platform/terraform-modules",
+    "description": "Service: terraform-modules",
+    "language": "HCL",
+    "stargazers_count": 12,
+    "forks_count": 6,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "helm-charts",
+    "html_url": "https://github.example.com/platform/helm-charts",
+    "description": "Service: helm-charts",
+    "language": "YAML",
+    "stargazers_count": 15,
+    "forks_count": 8,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "sdk-go",
+    "html_url": "https://github.example.com/platform/sdk-go",
+    "description": "Service: sdk-go",
+    "language": "Go",
+    "stargazers_count": 22,
+    "forks_count": 3,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  },
+  {
+    "name": "sdk-js",
+    "html_url": "https://github.example.com/platform/sdk-js",
+    "description": "Service: sdk-js",
+    "language": "TypeScript",
+    "stargazers_count": 20,
+    "forks_count": 6,
+    "owner": {
+      "login": "platform"
+    },
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2025-02-20T15:30:00Z"
+  }
+]
