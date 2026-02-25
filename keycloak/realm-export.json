@@ -84,17 +84,18 @@
       "serviceAccountsEnabled": false,
       "protocol": "openid-connect",
       "redirectUris": [
-        "http://localhost:5173/*",
-        "http://localhost:3000/*",
-        "http://frontend:80/*",
-        "*"
+          "https://hse.bocharoff.tech/*",
+          "http://hse.bocharoff.tech/*",
+          "https://hse.bocharoff.tech",
+          "http://hse.bocharoff.tech",
+          "*"
       ],
       "webOrigins": [
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "http://frontend:80",
-        "*",
-        "+"
+          "https://hse.bocharoff.tech/*",
+          "http://hse.bocharoff.tech/*",
+          "https://hse.bocharoff.tech",
+          "http://hse.bocharoff.tech",
+          "*"
       ],
       "attributes": {
         "pkce.code.challenge.method": "S256",
